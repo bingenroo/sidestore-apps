@@ -1,0 +1,26 @@
+{
+  "io.slote": {
+    "name": "Slote",
+    "bundleIdentifier": "io.slote",
+    "developerName": "bingenroo",
+    "subtitle": "Cross-platform note-taking",
+    "localizedDescription": "Slote - cross-platform note-taking with freehand drawing. Private build, distributed via SideStore.",
+    "iconURL": "https://raw.githubusercontent.com/bingenroo/sidestore-apps/main/icons/slote.png",
+    "tintColor": "#3B6EA5",
+    "category": "productivity",
+    "screenshotURLs": [],
+    "appPermissions": { "entitlements": [], "privacy": {} }
+  },
+  "com.hdreborn.game": {
+    "name": "hd-reborn",
+    "bundleIdentifier": "com.hdreborn.game",
+    "developerName": "bingenroo",
+    "subtitle": "Bullet-hell ARPG prototype",
+    "localizedDescription": "hd-reborn - MHDR-inspired bullet-hell ARPG prototype built in Godot. Private build, distributed via SideStore.",
+    "iconURL": "https://raw.githubusercontent.com/bingenroo/sidestore-apps/main/icons/hdreborn.png",
+    "tintColor": "#8A2E2E",
+    "category": "games",
+    "screenshotURLs": [],
+    "appPermissions": { "entitlements": [], "privacy": {} }
+  }
+}

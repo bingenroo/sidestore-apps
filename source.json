@@ -1,0 +1,11 @@
+{
+  "name": "bingenroo apps",
+  "identifier": "io.slote.sidestore.source",
+  "subtitle": "Private builds of Slote and hd-reborn",
+  "description": "Self-hosted SideStore source. Unsigned IPAs, re-signed on device with a free Apple ID.",
+  "iconURL": "https://raw.githubusercontent.com/bingenroo/sidestore-apps/main/icons/slote.png",
+  "website": "https://github.com/bingenroo/sidestore-apps",
+  "tintColor": "#3B6EA5",
+  "apps": [],
+  "news": []
+}
