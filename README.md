@@ -21,6 +21,11 @@ https://raw.githubusercontent.com/bingenroo/sidestore-apps/main/source.json
 | `icons/` | App icons referenced by `iconURL`. |
 | Releases | The `.ipa` files themselves, one release per version tag. |
 
+## Setup and operations
+
+See **[SETUP.md](SETUP.md)** for the PAT scopes, the macOS-minutes budget, the
+phone-only build loop, and the pre-departure device checklist.
+
 ## Apps
 
 | App | Bundle ID | Source repo (private) | Framework |
