@@ -6,6 +6,39 @@
   "iconURL": "https://raw.githubusercontent.com/bingenroo/sidestore-apps/main/icons/slote.png",
   "website": "https://github.com/bingenroo/sidestore-apps",
   "tintColor": "#3B6EA5",
-  "apps": [],
+  "apps": [
+    {
+      "name": "Slote",
+      "bundleIdentifier": "io.slote",
+      "developerName": "bingenroo",
+      "subtitle": "Cross-platform note-taking",
+      "localizedDescription": "Slote - cross-platform note-taking with freehand drawing. Private build, distributed via SideStore.",
+      "iconURL": "https://raw.githubusercontent.com/bingenroo/sidestore-apps/main/icons/slote.png",
+      "tintColor": "#3B6EA5",
+      "category": "productivity",
+      "screenshotURLs": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "versions": [
+        {
+          "version": "0.0.4",
+          "buildVersion": "4",
+          "date": "2026-10-05",
+          "localizedDescription": "Slote 0.0.4 (32c7f83)",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.4/Slote-0.0.4.ipa",
+          "size": 23343087,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "version": "0.0.4",
+      "versionDate": "2026-10-05",
+      "versionDescription": "Slote 0.0.4 (32c7f83)",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.4/Slote-0.0.4.ipa",
+      "size": 23343087,
+      "minOSVersion": "14.0"
+    }
+  ],
   "news": []
 }
