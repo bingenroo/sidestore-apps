@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.13",
+          "buildVersion": "13",
+          "date": "2026-10-07",
+          "localizedDescription": "Slote 0.0.13 (8634d94)",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.13/Slote-0.0.13.ipa",
+          "size": 24317893,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.12",
           "buildVersion": "12",
           "date": "2026-10-07",
@@ -104,11 +113,11 @@
           "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.12",
+      "version": "0.0.13",
       "versionDate": "2026-10-07",
-      "versionDescription": "Slote 0.0.12 (90bc563)",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.12/Slote-0.0.12.ipa",
-      "size": 24313032,
+      "versionDescription": "Slote 0.0.13 (8634d94)",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.13/Slote-0.0.13.ipa",
+      "size": 24317893,
       "minOSVersion": "14.0"
     }
   ],
