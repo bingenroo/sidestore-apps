@@ -5,6 +5,14 @@ loop is phone-only.
 
 ---
 
+> **Slote now builds here, not in `bingenroo/slote`** (`.github/workflows/build-slote.yml`):
+> public repos get macOS minutes free. The private source is fetched with a
+> read-only deploy key (`SLOTE_DEPLOY_KEY`) and never committed; build output goes
+> to a log encrypted with `LOG_KEY` (local copy: `~/.config/slote/ios-log-key`).
+> Start a build with `slote/tools/ios/ship.sh` or Actions → Build Slote IPA → Run
+> workflow; read its log with `slote/tools/ios/buildlog.sh <run-id>`. Sections 1–2
+> below still apply to hd-reborn.
+
 ## 1. The fine-grained PAT
 
 The two private repos push release assets into this public repo, which is a

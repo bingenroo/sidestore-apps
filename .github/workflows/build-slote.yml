@@ -1,0 +1,195 @@
+name: Build Slote IPA
+
+# Runs here, not in the private slote repo, because public repos get macOS
+# minutes free. The slote source is fetched with a read-only deploy key and
+# never committed. This repo's logs are public, so every step that could print
+# source (pub, pods, flutter, xcode) writes to build.log instead; the log is
+# attached to the run encrypted with LOG_KEY. Read it with
+# slote/tools/ios/buildlog.sh <run-id>.
+#
+# Only someone with write access can dispatch, so the secrets never reach a
+# fork. Start it from slote/tools/ios/ship.sh, or from the Actions tab.
+on:
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: 'slote ref to build (a vX.Y.Z tag pins the version)'
+        required: true
+        default: 'wip'
+      notes:
+        description: 'Release notes shown in SideStore'
+        required: false
+        default: ''
+
+permissions:
+  contents: write   # release + source.json commit, both in this repo
+
+concurrency:
+  group: build-slote
+  cancel-in-progress: false
+
+env:
+  APP_NAME: Slote
+  BUNDLE_ID: io.slote
+  MIN_OS: '14.0'
+  RELEASE_PREFIX: slote
+  LOG: ${{ github.workspace }}/build.log
+
+jobs:
+  build:
+    runs-on: macos-15
+    timeout-minutes: 45
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: dist
+
+      # A hand-rolled quiet fetch: actions/checkout would print the commit
+      # subject ("HEAD is now at ...") into the public log.
+      - name: Fetch slote source
+        env:
+          DEPLOY_KEY: ${{ secrets.SLOTE_DEPLOY_KEY }}
+          REF: ${{ inputs.ref }}
+        run: |
+          set -euo pipefail
+          KEY="$RUNNER_TEMP/slote_key"
+          printf '%s\n' "$DEPLOY_KEY" > "$KEY"
+          chmod 600 "$KEY"
+          export GIT_SSH_COMMAND="ssh -i $KEY -o StrictHostKeyChecking=accept-new -o LogLevel=ERROR"
+          git init -q slote
+          git -C slote remote add origin git@github.com:bingenroo/slote.git
+          git -C slote fetch -q --depth 1 origin "$REF"
+          git -C slote checkout -q FETCH_HEAD
+          rm -f "$KEY"
+
+      - name: Resolve version
+        id: ver
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REF: ${{ inputs.ref }}
+        run: |
+          set -euo pipefail
+          if [[ "$REF" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+            VERSION="${REF#v}"
+          else
+            # Highest published slote-v0.0.N wins; sort -V keeps 0.0.10 above 0.0.9.
+            LAST=$(gh release list -R "$GITHUB_REPOSITORY" -L 500 --json tagName -q '.[].tagName' \
+              | sed -n "s/^${RELEASE_PREFIX}-v//p" | sort -V | tail -1)
+            VERSION="0.0.$(( ${LAST##*.} + 1 ))"
+          fi
+          echo "version=$VERSION"  >> "$GITHUB_OUTPUT"
+          echo "build=${VERSION##*.}" >> "$GITHUB_OUTPUT"
+          echo "sha=$(git -C slote rev-parse --short HEAD)" >> "$GITHUB_OUTPUT"
+          echo "Building $VERSION"
+
+      - name: Stamp version into pubspec.yaml
+        working-directory: slote
+        run: |
+          V="${{ steps.ver.outputs.version }}+${{ steps.ver.outputs.build }}"
+          /usr/bin/sed -i '' -E "s/^version: .*/version: $V/" pubspec.yaml
+
+      # device_info_plus 12.4 calls `isiOSAppOnVision`, which only the iOS 26
+      # SDK declares; the image's default Xcode (16.4) fails the build on it.
+      - name: Select Xcode 26
+        run: sudo xcode-select -s /Applications/Xcode_26.3.app
+
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.44.9'   # the pinned local baseline
+          channel: stable
+          cache: true
+
+      - name: Cache pub packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.pub-cache
+          key: pub-${{ runner.os }}-${{ hashFiles('slote/pubspec.lock') }}
+          restore-keys: pub-${{ runner.os }}-
+
+      - name: Cache CocoaPods
+        uses: actions/cache@v4
+        with:
+          path: |
+            slote/ios/Pods
+            ~/Library/Caches/CocoaPods
+          key: pods-${{ runner.os }}-${{ hashFiles('slote/ios/Podfile.lock') }}
+          restore-keys: pods-${{ runner.os }}-
+
+      # CocoaPods, not SwiftPM: sentry_flutter's Package.swift takes any
+      # sentry-cocoa 8.x, and a newer one drops the
+      # `SentryBinaryImageCache.image` it calls. Podfile.lock pins 8.46.0.
+      - name: Build unsigned .app (output in encrypted log)
+        working-directory: slote
+        run: |
+          set -euo pipefail
+          {
+            flutter config --no-enable-swift-package-manager
+            flutter pub get
+            flutter build ios --release --no-codesign --verbose
+          } >> "$LOG" 2>&1
+
+      - name: Package unsigned .ipa
+        id: pkg
+        run: |
+          set -euo pipefail
+          IPA="$RUNNER_TEMP/${APP_NAME}-${{ steps.ver.outputs.version }}.ipa"
+          # An .ipa is just a zip with the .app under Payload/. SideStore strips
+          # and re-signs it on device, so there is nothing to sign here.
+          mkdir -p "$RUNNER_TEMP/payload/Payload"
+          cp -R slote/build/ios/iphoneos/Runner.app "$RUNNER_TEMP/payload/Payload/"
+          ( cd "$RUNNER_TEMP/payload" && zip -qry "$IPA" Payload )
+          echo "ipa=$IPA" >> "$GITHUB_OUTPUT"
+          echo "size=$(stat -f%z "$IPA")" >> "$GITHUB_OUTPUT"
+
+      - name: Publish release and source.json
+        env:
+          GH_TOKEN: ${{ github.token }}
+          # Via env, never interpolated into the script body: a note containing
+          # a quote or backtick would otherwise be pasted straight into bash.
+          INPUT_NOTES: ${{ inputs.notes }}
+        run: |
+          set -euo pipefail
+          VERSION="${{ steps.ver.outputs.version }}"
+          TAG="${RELEASE_PREFIX}-v${VERSION}"
+          IPA="${{ steps.pkg.outputs.ipa }}"
+          NOTES="${INPUT_NOTES:-}"
+          [ -n "$NOTES" ] || NOTES="${APP_NAME} ${VERSION} (${{ steps.ver.outputs.sha }})"
+
+          gh release create "$TAG" "$IPA" -R "$GITHUB_REPOSITORY" \
+            --title "${APP_NAME} ${VERSION}" --notes "$NOTES"
+          URL="https://github.com/${GITHUB_REPOSITORY}/releases/download/${TAG}/$(basename "$IPA")"
+
+          cd dist
+          python3 scripts/patch_source.py \
+            --source source.json \
+            --template apps.template.json \
+            --bundle-id "$BUNDLE_ID" \
+            --version "$VERSION" \
+            --build "${{ steps.ver.outputs.build }}" \
+            --download-url "$URL" \
+            --size "${{ steps.pkg.outputs.size }}" \
+            --min-os "$MIN_OS" \
+            --notes "$NOTES"
+          git -c user.email=actions@github.com -c user.name="build bot" \
+            commit -qam "${APP_NAME} ${VERSION}"
+          git pull -q --rebase   # hd-reborn publishes into the same file
+          git push -q
+          echo "Published $URL"
+
+      - name: Encrypt build log
+        if: always()
+        env:
+          LOG_KEY: ${{ secrets.LOG_KEY }}
+        run: |
+          touch "$LOG"
+          "$(brew --prefix openssl@3)/bin/openssl" enc -aes-256-cbc -pbkdf2 -salt \
+            -in "$LOG" -out build.log.enc -pass env:LOG_KEY
+          rm -f "$LOG"
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: build-log
+          path: build.log.enc
+          retention-days: 30
