@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.17",
+          "buildVersion": "17",
+          "date": "2026-10-15",
+          "localizedDescription": "Desktop usability: Shift+wheel sideways scroll, mouse cursors, wheel-scrolling strips, layered Escape, keyboard scrolling, ink copy/paste, keyboard-reachable cards, Archive/Trash previews, safer destructive dialogs; Pinned and Recents in the sidebar with note-kind icons; corrupt drawings are kept, sync errors surface.",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.17/Slote-0.0.17.ipa",
+          "size": 24358475,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.16",
           "buildVersion": "16",
           "date": "2026-10-14",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.8/Slote-0.0.8.ipa",
           "size": 24298219,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.7",
-          "buildVersion": "7",
-          "date": "2026-10-05",
-          "localizedDescription": "Slote 0.0.7 (8353845)",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.7/Slote-0.0.7.ipa",
-          "size": 23341654,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.16",
-      "versionDate": "2026-10-14",
-      "versionDescription": "Tables scroll sideways in view mode",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.16/Slote-0.0.16.ipa",
-      "size": 24326920,
+      "version": "0.0.17",
+      "versionDate": "2026-10-15",
+      "versionDescription": "Desktop usability: Shift+wheel sideways scroll, mouse cursors, wheel-scrolling strips, layered Escape, keyboard scrolling, ink copy/paste, keyboard-reachable cards, Archive/Trash previews, safer destructive dialogs; Pinned and Recents in the sidebar with note-kind icons; corrupt drawings are kept, sync errors surface.",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.17/Slote-0.0.17.ipa",
+      "size": 24358475,
       "minOSVersion": "14.0"
     }
   ],
