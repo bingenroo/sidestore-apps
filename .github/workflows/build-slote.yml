@@ -119,6 +119,16 @@ jobs:
       # CocoaPods, not SwiftPM: sentry_flutter's Package.swift takes any
       # sentry-cocoa 8.x, and a newer one drops the
       # `SentryBinaryImageCache.image` it calls. Podfile.lock pins 8.46.0.
+      # Without these defines sign-in is dead and the app runs local-only.
+      - name: Write dart-define env
+        env:
+          PROD_ENV_JSON: ${{ secrets.PROD_ENV_JSON }}
+        run: |
+          set -euo pipefail
+          [ -n "$PROD_ENV_JSON" ] || { echo "::error::PROD_ENV_JSON secret missing"; exit 1; }
+          mkdir -p slote/env
+          printf '%s' "$PROD_ENV_JSON" > slote/env/prod.json
+
       - name: Build unsigned .app (output in encrypted log)
         working-directory: slote
         run: |
@@ -126,7 +136,7 @@ jobs:
           {
             flutter config --no-enable-swift-package-manager
             flutter pub get
-            flutter build ios --release --no-codesign --verbose
+            flutter build ios --release --no-codesign --dart-define-from-file=env/prod.json --verbose
           } >> "$LOG" 2>&1
 
       - name: Package unsigned .ipa
