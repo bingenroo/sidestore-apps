@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.20",
+          "buildVersion": "20",
+          "date": "2026-10-18",
+          "localizedDescription": "Loading bar instead of skeleton cards on first sync",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.20/Slote-0.0.20.ipa",
+          "size": 24551340,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.19",
           "buildVersion": "19",
           "date": "2026-10-17",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.11/Slote-0.0.11.ipa",
           "size": 24312127,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.10",
-          "buildVersion": "10",
-          "date": "2026-10-07",
-          "localizedDescription": "Slote 0.0.10 (d9b5ae6)",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.10/Slote-0.0.10.ipa",
-          "size": 24313829,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.19",
-      "versionDate": "2026-10-17",
-      "versionDescription": "Sign-in works again (cloud sync restored); sign-up bot guard",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.19/Slote-0.0.19.ipa",
-      "size": 24540347,
+      "version": "0.0.20",
+      "versionDate": "2026-10-18",
+      "versionDescription": "Loading bar instead of skeleton cards on first sync",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.20/Slote-0.0.20.ipa",
+      "size": 24551340,
       "minOSVersion": "14.0"
     }
   ],
