@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.21",
+          "buildVersion": "21",
+          "date": "2026-10-19",
+          "localizedDescription": "Battery/data: autosave push debounced, own realtime echo skipped, revisions every 5 min, DB writes throttled, native crypto",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.21/Slote-0.0.21.ipa",
+          "size": 24624939,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.20",
           "buildVersion": "20",
           "date": "2026-10-18",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.12/Slote-0.0.12.ipa",
           "size": 24313032,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.11",
-          "buildVersion": "11",
-          "date": "2026-10-07",
-          "localizedDescription": "Slote 0.0.11 (cc40ced)",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.11/Slote-0.0.11.ipa",
-          "size": 24312127,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.20",
-      "versionDate": "2026-10-18",
-      "versionDescription": "Loading bar instead of skeleton cards on first sync",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.20/Slote-0.0.20.ipa",
-      "size": 24551340,
+      "version": "0.0.21",
+      "versionDate": "2026-10-19",
+      "versionDescription": "Battery/data: autosave push debounced, own realtime echo skipped, revisions every 5 min, DB writes throttled, native crypto",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.21/Slote-0.0.21.ipa",
+      "size": 24624939,
       "minOSVersion": "14.0"
     }
   ],
