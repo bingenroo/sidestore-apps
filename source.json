@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.22",
+          "buildVersion": "22",
+          "date": "2026-10-25",
+          "localizedDescription": "Handle drag keeps selecting after a round trip; glass loupe on iOS 26; no first-keystroke line shift",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.22/Slote-0.0.22.ipa",
+          "size": 24637269,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.21",
           "buildVersion": "21",
           "date": "2026-10-19",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.13/Slote-0.0.13.ipa",
           "size": 24317893,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.12",
-          "buildVersion": "12",
-          "date": "2026-10-07",
-          "localizedDescription": "Slote 0.0.12 (90bc563)",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.12/Slote-0.0.12.ipa",
-          "size": 24313032,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.21",
-      "versionDate": "2026-10-19",
-      "versionDescription": "Battery/data: autosave push debounced, own realtime echo skipped, revisions every 5 min, DB writes throttled, native crypto",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.21/Slote-0.0.21.ipa",
-      "size": 24624939,
+      "version": "0.0.22",
+      "versionDate": "2026-10-25",
+      "versionDescription": "Handle drag keeps selecting after a round trip; glass loupe on iOS 26; no first-keystroke line shift",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.22/Slote-0.0.22.ipa",
+      "size": 24637269,
       "minOSVersion": "14.0"
     }
   ],
