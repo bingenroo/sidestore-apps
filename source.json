@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.25",
+          "buildVersion": "25",
+          "date": "2026-10-26",
+          "localizedDescription": "Caret drags stick (zoom, cross-paragraph), long-press drags caret while editing, system Liquid Glass loupe, desktop right-click keeps Select All",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.25/Slote-0.0.25.ipa",
+          "size": 24643422,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.24",
           "buildVersion": "24",
           "date": "2026-10-26",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.16/Slote-0.0.16.ipa",
           "size": 24326920,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.15",
-          "buildVersion": "15",
-          "date": "2026-10-14",
-          "localizedDescription": "Slote 0.0.15 (5915f41)",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.15/Slote-0.0.15.ipa",
-          "size": 24323439,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.24",
+      "version": "0.0.25",
       "versionDate": "2026-10-26",
-      "versionDescription": "Claude answers with a code block inside a bullet now paste formatted",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.24/Slote-0.0.24.ipa",
-      "size": 24638078,
+      "versionDescription": "Caret drags stick (zoom, cross-paragraph), long-press drags caret while editing, system Liquid Glass loupe, desktop right-click keeps Select All",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.25/Slote-0.0.25.ipa",
+      "size": 24643422,
       "minOSVersion": "14.0"
     }
   ],
