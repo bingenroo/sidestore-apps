@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.23",
+          "buildVersion": "23",
+          "date": "2026-10-26",
+          "localizedDescription": "macOS remote-desktop modifiers, graceful quit closing bar",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.23/Slote-0.0.23.ipa",
+          "size": 24632377,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.22",
           "buildVersion": "22",
           "date": "2026-10-25",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.14/Slote-0.0.14.ipa",
           "size": 24318343,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.13",
-          "buildVersion": "13",
-          "date": "2026-10-07",
-          "localizedDescription": "Slote 0.0.13 (8634d94)",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.13/Slote-0.0.13.ipa",
-          "size": 24317893,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.22",
-      "versionDate": "2026-10-25",
-      "versionDescription": "Handle drag keeps selecting after a round trip; glass loupe on iOS 26; no first-keystroke line shift",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.22/Slote-0.0.22.ipa",
-      "size": 24637269,
+      "version": "0.0.23",
+      "versionDate": "2026-10-26",
+      "versionDescription": "macOS remote-desktop modifiers, graceful quit closing bar",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.23/Slote-0.0.23.ipa",
+      "size": 24632377,
       "minOSVersion": "14.0"
     }
   ],
