@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.26",
+          "buildVersion": "26",
+          "date": "2026-10-27",
+          "localizedDescription": "Lasso resize now scales ink thickness with the strokes",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.26/Slote-0.0.26.ipa",
+          "size": 24643221,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.25",
           "buildVersion": "25",
           "date": "2026-10-26",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.17/Slote-0.0.17.ipa",
           "size": 24358475,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.16",
-          "buildVersion": "16",
-          "date": "2026-10-14",
-          "localizedDescription": "Tables scroll sideways in view mode",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.16/Slote-0.0.16.ipa",
-          "size": 24326920,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.25",
-      "versionDate": "2026-10-26",
-      "versionDescription": "Caret drags stick (zoom, cross-paragraph), long-press drags caret while editing, system Liquid Glass loupe, desktop right-click keeps Select All",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.25/Slote-0.0.25.ipa",
-      "size": 24643422,
+      "version": "0.0.26",
+      "versionDate": "2026-10-27",
+      "versionDescription": "Lasso resize now scales ink thickness with the strokes",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.26/Slote-0.0.26.ipa",
+      "size": 24643221,
       "minOSVersion": "14.0"
     }
   ],
