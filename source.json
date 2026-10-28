@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.28",
+          "buildVersion": "28",
+          "date": "2026-10-28",
+          "localizedDescription": "LaTeX math blocks: Claude equations paste typeset",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.28/Slote-0.0.28.ipa",
+          "size": 25492070,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.26",
           "buildVersion": "26",
           "date": "2026-10-27",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.18/Slote-0.0.18.ipa",
           "size": 24462630,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.17",
-          "buildVersion": "17",
-          "date": "2026-10-15",
-          "localizedDescription": "Desktop usability: Shift+wheel sideways scroll, mouse cursors, wheel-scrolling strips, layered Escape, keyboard scrolling, ink copy/paste, keyboard-reachable cards, Archive/Trash previews, safer destructive dialogs; Pinned and Recents in the sidebar with note-kind icons; corrupt drawings are kept, sync errors surface.",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.17/Slote-0.0.17.ipa",
-          "size": 24358475,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.26",
-      "versionDate": "2026-10-27",
-      "versionDescription": "Lasso resize now scales ink thickness with the strokes",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.26/Slote-0.0.26.ipa",
-      "size": 24643221,
+      "version": "0.0.28",
+      "versionDate": "2026-10-28",
+      "versionDescription": "LaTeX math blocks: Claude equations paste typeset",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.28/Slote-0.0.28.ipa",
+      "size": 25492070,
       "minOSVersion": "14.0"
     }
   ],
