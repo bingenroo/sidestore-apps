@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.31",
+          "buildVersion": "31",
+          "date": "2026-10-28",
+          "localizedDescription": "Folder chip beside the note title (file/move/unfile), hold + to start a note in a chosen folder, sidebar folder + removed",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.31/Slote-0.0.31.ipa",
+          "size": 25496275,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.30",
           "buildVersion": "30",
           "date": "2026-10-28",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.20/Slote-0.0.20.ipa",
           "size": 24551340,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.19",
-          "buildVersion": "19",
-          "date": "2026-10-17",
-          "localizedDescription": "Sign-in works again (cloud sync restored); sign-up bot guard",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.19/Slote-0.0.19.ipa",
-          "size": 24540347,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.30",
+      "version": "0.0.31",
       "versionDate": "2026-10-28",
-      "versionDescription": "Settings: five categories, search, Note experience folded into Appearance",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.30/Slote-0.0.30.ipa",
-      "size": 25492363,
+      "versionDescription": "Folder chip beside the note title (file/move/unfile), hold + to start a note in a chosen folder, sidebar folder + removed",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.31/Slote-0.0.31.ipa",
+      "size": 25496275,
       "minOSVersion": "14.0"
     }
   ],
