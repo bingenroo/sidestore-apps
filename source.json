@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.30",
+          "buildVersion": "30",
+          "date": "2026-10-28",
+          "localizedDescription": "Settings: five categories, search, Note experience folded into Appearance",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.30/Slote-0.0.30.ipa",
+          "size": 25492363,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.28",
           "buildVersion": "28",
           "date": "2026-10-28",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.19/Slote-0.0.19.ipa",
           "size": 24540347,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.18",
-          "buildVersion": "18",
-          "date": "2026-10-17",
-          "localizedDescription": "Apple Pencil double-tap/squeeze; tabs ride a floating capsule",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.18/Slote-0.0.18.ipa",
-          "size": 24462630,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.28",
+      "version": "0.0.30",
       "versionDate": "2026-10-28",
-      "versionDescription": "LaTeX math blocks: Claude equations paste typeset",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.28/Slote-0.0.28.ipa",
-      "size": 25492070,
+      "versionDescription": "Settings: five categories, search, Note experience folded into Appearance",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.30/Slote-0.0.30.ipa",
+      "size": 25492363,
       "minOSVersion": "14.0"
     }
   ],
