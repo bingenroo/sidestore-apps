@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.32",
+          "buildVersion": "32",
+          "date": "2026-10-29",
+          "localizedDescription": "Draw: pen beside eraser, marker moved right; tapping off a tool popup no longer inks; Settings > Scribble to erase toggle",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.32/Slote-0.0.32.ipa",
+          "size": 25497822,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.31",
           "buildVersion": "31",
           "date": "2026-10-28",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.21/Slote-0.0.21.ipa",
           "size": 24624939,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.20",
-          "buildVersion": "20",
-          "date": "2026-10-18",
-          "localizedDescription": "Loading bar instead of skeleton cards on first sync",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.20/Slote-0.0.20.ipa",
-          "size": 24551340,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.31",
-      "versionDate": "2026-10-28",
-      "versionDescription": "Folder chip beside the note title (file/move/unfile), hold + to start a note in a chosen folder, sidebar folder + removed",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.31/Slote-0.0.31.ipa",
-      "size": 25496275,
+      "version": "0.0.32",
+      "versionDate": "2026-10-29",
+      "versionDescription": "Draw: pen beside eraser, marker moved right; tapping off a tool popup no longer inks; Settings > Scribble to erase toggle",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.32/Slote-0.0.32.ipa",
+      "size": 25497822,
       "minOSVersion": "14.0"
     }
   ],
