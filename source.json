@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.33",
+          "buildVersion": "33",
+          "date": "2026-10-29",
+          "localizedDescription": "Draw: zig-zag/loopy scribble erases; loop round ink + hold = lasso; two-finger tap = undo",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.33/Slote-0.0.33.ipa",
+          "size": 25494063,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.32",
           "buildVersion": "32",
           "date": "2026-10-29",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.22/Slote-0.0.22.ipa",
           "size": 24637269,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.21",
-          "buildVersion": "21",
-          "date": "2026-10-19",
-          "localizedDescription": "Battery/data: autosave push debounced, own realtime echo skipped, revisions every 5 min, DB writes throttled, native crypto",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.21/Slote-0.0.21.ipa",
-          "size": 24624939,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.32",
+      "version": "0.0.33",
       "versionDate": "2026-10-29",
-      "versionDescription": "Draw: pen beside eraser, marker moved right; tapping off a tool popup no longer inks; Settings > Scribble to erase toggle",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.32/Slote-0.0.32.ipa",
-      "size": 25497822,
+      "versionDescription": "Draw: zig-zag/loopy scribble erases; loop round ink + hold = lasso; two-finger tap = undo",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.33/Slote-0.0.33.ipa",
+      "size": 25494063,
       "minOSVersion": "14.0"
     }
   ],
