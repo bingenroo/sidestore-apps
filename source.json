@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.34",
+          "buildVersion": "34",
+          "date": "2026-10-29",
+          "localizedDescription": "Phone note bar: folder chip is just the icon (grey = unfiled, outline = filed), more room for the title",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.34/Slote-0.0.34.ipa",
+          "size": 25494147,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.33",
           "buildVersion": "33",
           "date": "2026-10-29",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.23/Slote-0.0.23.ipa",
           "size": 24632377,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.22",
-          "buildVersion": "22",
-          "date": "2026-10-25",
-          "localizedDescription": "Handle drag keeps selecting after a round trip; glass loupe on iOS 26; no first-keystroke line shift",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.22/Slote-0.0.22.ipa",
-          "size": 24637269,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.33",
+      "version": "0.0.34",
       "versionDate": "2026-10-29",
-      "versionDescription": "Draw: zig-zag/loopy scribble erases; loop round ink + hold = lasso; two-finger tap = undo",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.33/Slote-0.0.33.ipa",
-      "size": 25494063,
+      "versionDescription": "Phone note bar: folder chip is just the icon (grey = unfiled, outline = filed), more room for the title",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.34/Slote-0.0.34.ipa",
+      "size": 25494147,
       "minOSVersion": "14.0"
     }
   ],
