@@ -12,6 +12,11 @@ loop is phone-only.
 > Start a build with `slote/tools/ios/ship.sh` or Actions → Build Slote IPA → Run
 > workflow; read its log with `slote/tools/ios/buildlog.sh <run-id>`. Sections 1–2
 > below still apply to hd-reborn.
+>
+> **Dex builds here too** (`.github/workflows/build-dex.yml`), the same way: deploy key
+> `DEX_DEPLOY_KEY` (read-only on `bingenroo/dex`), the shared `LOG_KEY`, XcodeGen from
+> `dex/native/project.yml`. `publish=false` is a compile check; read its log with
+> `dex/native/buildlog.sh <run-id>`.
 
 ## 1. The fine-grained PAT
 

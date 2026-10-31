@@ -1,0 +1,170 @@
+name: Build Dex
+
+# Dex's native SwiftUI app (dex/native, MASTERPLAN 6.5). Same pattern as
+# build-slote.yml: public repo for free macOS minutes, private source fetched
+# with a read-only deploy key (DEX_DEPLOY_KEY) and never committed, every step
+# that could print source writes to build.log, attached encrypted with LOG_KEY.
+# Read it with: dex/native/buildlog.sh <run-id>.
+#
+# publish=false is a compile check (iOS and macOS) with no release.
+on:
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: 'dex ref to build'
+        required: true
+        default: 'main'
+      publish:
+        description: 'Publish the IPA to SideStore and the Mac app to the release'
+        type: boolean
+        required: true
+        default: true
+      notes:
+        description: 'Release notes shown in SideStore'
+        required: false
+        default: ''
+
+permissions:
+  contents: write   # release + source.json commit, both in this repo
+
+concurrency:
+  group: build-dex
+  cancel-in-progress: false
+
+env:
+  APP_NAME: Dex
+  BUNDLE_ID: io.bingenroo.dex
+  MIN_OS: '26.0'
+  RELEASE_PREFIX: dex
+  LOG: ${{ github.workspace }}/build.log
+
+jobs:
+  build:
+    runs-on: macos-15
+    timeout-minutes: 45
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: dist
+
+      # Quiet fetch: actions/checkout would print the commit subject into the public log.
+      - name: Fetch dex source
+        env:
+          DEPLOY_KEY: ${{ secrets.DEX_DEPLOY_KEY }}
+          REF: ${{ inputs.ref }}
+        run: |
+          set -euo pipefail
+          [ -n "$DEPLOY_KEY" ] || { echo "::error::DEX_DEPLOY_KEY secret missing"; exit 1; }
+          KEY="$RUNNER_TEMP/dex_key"
+          printf '%s\n' "$DEPLOY_KEY" > "$KEY"
+          chmod 600 "$KEY"
+          export GIT_SSH_COMMAND="ssh -i $KEY -o StrictHostKeyChecking=accept-new -o LogLevel=ERROR"
+          git init -q dex
+          git -C dex remote add origin git@github.com:bingenroo/dex.git
+          git -C dex fetch -q --depth 1 origin "$REF"
+          git -C dex checkout -q FETCH_HEAD
+          rm -f "$KEY"
+
+      - name: Resolve version
+        id: ver
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          # Highest published dex-v0.1.N wins; sort -V keeps 0.1.10 above 0.1.9.
+          LAST=$(gh release list -R "$GITHUB_REPOSITORY" -L 500 --json tagName -q '.[].tagName' \
+            | sed -n "s/^${RELEASE_PREFIX}-v//p" | sort -V | tail -1)
+          N=$(( ${LAST##*.} + 1 ))
+          echo "version=0.1.$N" >> "$GITHUB_OUTPUT"
+          echo "build=$N" >> "$GITHUB_OUTPUT"
+          echo "sha=$(git -C dex rev-parse --short HEAD)" >> "$GITHUB_OUTPUT"
+
+      # .sidebarAdaptable, Tab and glassEffect need the iOS/macOS 26 SDK
+      - name: Select Xcode 26
+        run: sudo xcode-select -s /Applications/Xcode_26.3.app
+
+      - name: Generate the Xcode project
+        working-directory: dex/native
+        run: |
+          set -euo pipefail
+          brew install xcodegen >> "$LOG" 2>&1
+          xcodegen generate --spec project.yml >> "$LOG" 2>&1
+
+      - name: Build iOS and macOS (output in encrypted log)
+        id: build
+        working-directory: dex/native
+        run: |
+          set -euo pipefail
+          V="MARKETING_VERSION=${{ steps.ver.outputs.version }} CURRENT_PROJECT_VERSION=${{ steps.ver.outputs.build }}"
+          ok=1
+          xcodebuild -project Dex.xcodeproj -scheme Dex -configuration Release -destination 'generic/platform=iOS' \
+            -derivedDataPath build CODE_SIGNING_ALLOWED=NO $V build >> "$LOG" 2>&1 || ok=0
+          # ad-hoc signed, so the Mac opens it after right-click > Open
+          xcodebuild -project Dex.xcodeproj -scheme Dex -configuration Release -destination 'generic/platform=macOS' \
+            -derivedDataPath build CODE_SIGN_IDENTITY=- CODE_SIGN_STYLE=Manual $V build >> "$LOG" 2>&1 || ok=0
+          [ "$ok" = 1 ]
+
+      - name: Package
+        id: pkg
+        if: inputs.publish
+        run: |
+          set -euo pipefail
+          IPA="$RUNNER_TEMP/${APP_NAME}-${{ steps.ver.outputs.version }}.ipa"
+          MAC="$RUNNER_TEMP/${APP_NAME}-${{ steps.ver.outputs.version }}-mac.zip"
+          # SideStore strips and re-signs the .ipa on device
+          mkdir -p "$RUNNER_TEMP/payload/Payload"
+          cp -R dex/native/build/Build/Products/Release-iphoneos/Dex.app "$RUNNER_TEMP/payload/Payload/"
+          ( cd "$RUNNER_TEMP/payload" && zip -qry "$IPA" Payload )
+          ( cd dex/native/build/Build/Products/Release && ditto -c -k --keepParent Dex.app "$MAC" )
+          echo "ipa=$IPA" >> "$GITHUB_OUTPUT"
+          echo "mac=$MAC" >> "$GITHUB_OUTPUT"
+          echo "size=$(stat -f%z "$IPA")" >> "$GITHUB_OUTPUT"
+
+      - name: Publish release and source.json
+        if: inputs.publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+          INPUT_NOTES: ${{ inputs.notes }}  # via env so quotes in notes never reach bash
+        run: |
+          set -euo pipefail
+          VERSION="${{ steps.ver.outputs.version }}"
+          TAG="${RELEASE_PREFIX}-v${VERSION}"
+          IPA="${{ steps.pkg.outputs.ipa }}"
+          NOTES="${INPUT_NOTES:-}"
+          [ -n "$NOTES" ] || NOTES="${APP_NAME} ${VERSION} (${{ steps.ver.outputs.sha }})"
+          gh release create "$TAG" "$IPA" "${{ steps.pkg.outputs.mac }}" -R "$GITHUB_REPOSITORY" \
+            --title "${APP_NAME} ${VERSION}" --notes "$NOTES"
+          URL="https://github.com/${GITHUB_REPOSITORY}/releases/download/${TAG}/$(basename "$IPA")"
+          cd dist
+          python3 scripts/patch_source.py \
+            --source source.json \
+            --template apps.template.json \
+            --bundle-id "$BUNDLE_ID" \
+            --version "$VERSION" \
+            --build "${{ steps.ver.outputs.build }}" \
+            --download-url "$URL" \
+            --size "${{ steps.pkg.outputs.size }}" \
+            --min-os "$MIN_OS" \
+            --notes "$NOTES"
+          git -c user.email=actions@github.com -c user.name="build bot" commit -qam "${APP_NAME} ${VERSION}"
+          git pull -q --rebase   # other apps publish into the same file
+          git push -q
+          echo "Published $URL"
+
+      - name: Encrypt build log
+        if: always()
+        env:
+          LOG_KEY: ${{ secrets.LOG_KEY }}
+        run: |
+          touch "$LOG"
+          "$(brew --prefix openssl@3)/bin/openssl" enc -aes-256-cbc -pbkdf2 -salt \
+            -in "$LOG" -out build.log.enc -pass env:LOG_KEY
+          rm -f "$LOG"
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: build-log
+          path: build.log.enc
+          retention-days: 30

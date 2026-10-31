@@ -9,7 +9,10 @@
     "tintColor": "#3B6EA5",
     "category": "productivity",
     "screenshotURLs": [],
-    "appPermissions": { "entitlements": [], "privacy": {} }
+    "appPermissions": {
+      "entitlements": [],
+      "privacy": {}
+    }
   },
   "com.hdreborn.game": {
     "name": "hd-reborn",
@@ -21,6 +24,24 @@
     "tintColor": "#8A2E2E",
     "category": "games",
     "screenshotURLs": [],
-    "appPermissions": { "entitlements": [], "privacy": {} }
+    "appPermissions": {
+      "entitlements": [],
+      "privacy": {}
+    }
+  },
+  "io.bingenroo.dex": {
+    "name": "Dex",
+    "bundleIdentifier": "io.bingenroo.dex",
+    "developerName": "bingenroo",
+    "subtitle": "Personal agentic OS",
+    "localizedDescription": "Dex - Inbox, Home, Outreach, Chat, Activity and calendar for the Dex box. Private build, distributed via SideStore.",
+    "iconURL": "https://raw.githubusercontent.com/bingenroo/sidestore-apps/main/icons/dex.png",
+    "tintColor": "#6B4C84",
+    "category": "productivity",
+    "screenshotURLs": [],
+    "appPermissions": {
+      "entitlements": [],
+      "privacy": {}
+    }
   }
 }
