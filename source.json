@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.35",
+          "buildVersion": "35",
+          "date": "2026-10-31",
+          "localizedDescription": "Shrunk desktop window: hamburger opens the left panel; All notes renamed Home",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.35/Slote-0.0.35.ipa",
+          "size": 25494494,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.34",
           "buildVersion": "34",
           "date": "2026-10-29",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.24/Slote-0.0.24.ipa",
           "size": 24638078,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.23",
-          "buildVersion": "23",
-          "date": "2026-10-26",
-          "localizedDescription": "macOS remote-desktop modifiers, graceful quit closing bar",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.23/Slote-0.0.23.ipa",
-          "size": 24632377,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.34",
-      "versionDate": "2026-10-29",
-      "versionDescription": "Phone note bar: folder chip is just the icon (grey = unfiled, outline = filed), more room for the title",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.34/Slote-0.0.34.ipa",
-      "size": 25494147,
+      "version": "0.0.35",
+      "versionDate": "2026-10-31",
+      "versionDescription": "Shrunk desktop window: hamburger opens the left panel; All notes renamed Home",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.35/Slote-0.0.35.ipa",
+      "size": 25494494,
       "minOSVersion": "14.0"
     }
   ],
