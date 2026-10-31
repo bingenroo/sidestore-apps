@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.36",
+          "buildVersion": "36",
+          "date": "2026-10-31",
+          "localizedDescription": "Ctrl/Cmd+Alt+Enter splits the editor along its longer side (desktop)",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.36/Slote-0.0.36.ipa",
+          "size": 25495020,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.35",
           "buildVersion": "35",
           "date": "2026-10-31",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.25/Slote-0.0.25.ipa",
           "size": 24643422,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.24",
-          "buildVersion": "24",
-          "date": "2026-10-26",
-          "localizedDescription": "Claude answers with a code block inside a bullet now paste formatted",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.24/Slote-0.0.24.ipa",
-          "size": 24638078,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.35",
+      "version": "0.0.36",
       "versionDate": "2026-10-31",
-      "versionDescription": "Shrunk desktop window: hamburger opens the left panel; All notes renamed Home",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.35/Slote-0.0.35.ipa",
-      "size": 25494494,
+      "versionDescription": "Ctrl/Cmd+Alt+Enter splits the editor along its longer side (desktop)",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.36/Slote-0.0.36.ipa",
+      "size": 25495020,
       "minOSVersion": "14.0"
     }
   ],
