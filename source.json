@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.37",
+          "buildVersion": "37",
+          "date": "2026-11-02",
+          "localizedDescription": "Backspace/Delete now removes a divider below the caret",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.37/Slote-0.0.37.ipa",
+          "size": 25499964,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.36",
           "buildVersion": "36",
           "date": "2026-10-31",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.26/Slote-0.0.26.ipa",
           "size": 24643221,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.25",
-          "buildVersion": "25",
-          "date": "2026-10-26",
-          "localizedDescription": "Caret drags stick (zoom, cross-paragraph), long-press drags caret while editing, system Liquid Glass loupe, desktop right-click keeps Select All",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.25/Slote-0.0.25.ipa",
-          "size": 24643422,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.36",
-      "versionDate": "2026-10-31",
-      "versionDescription": "Ctrl/Cmd+Alt+Enter splits the editor along its longer side (desktop)",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.36/Slote-0.0.36.ipa",
-      "size": 25495020,
+      "version": "0.0.37",
+      "versionDate": "2026-11-02",
+      "versionDescription": "Backspace/Delete now removes a divider below the caret",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.37/Slote-0.0.37.ipa",
+      "size": 25499964,
       "minOSVersion": "14.0"
     }
   ],
