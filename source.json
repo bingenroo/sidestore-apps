@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.41",
+          "buildVersion": "41",
+          "date": "2026-11-03",
+          "localizedDescription": "Sign-up without a 2-Step code: account, emailed code, Home. New devices: Approve this device or recovery key.",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.41/Slote-0.0.41.ipa",
+          "size": 25530796,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.40",
           "buildVersion": "40",
           "date": "2026-11-03",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.32/Slote-0.0.32.ipa",
           "size": 25497822,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.31",
-          "buildVersion": "31",
-          "date": "2026-10-28",
-          "localizedDescription": "Folder chip beside the note title (file/move/unfile), hold + to start a note in a chosen folder, sidebar folder + removed",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.31/Slote-0.0.31.ipa",
-          "size": 25496275,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.40",
+      "version": "0.0.41",
       "versionDate": "2026-11-03",
-      "versionDescription": "Zoomed note: bottom bar + top-right take taps again; Dew sync button morph",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.40/Slote-0.0.40.ipa",
-      "size": 25531830,
+      "versionDescription": "Sign-up without a 2-Step code: account, emailed code, Home. New devices: Approve this device or recovery key.",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.41/Slote-0.0.41.ipa",
+      "size": 25530796,
       "minOSVersion": "14.0"
     }
   ],
