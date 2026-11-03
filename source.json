@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.40",
+          "buildVersion": "40",
+          "date": "2026-11-03",
+          "localizedDescription": "Zoomed note: bottom bar + top-right take taps again; Dew sync button morph",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.40/Slote-0.0.40.ipa",
+          "size": 25531830,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.39",
           "buildVersion": "39",
           "date": "2026-11-03",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.31/Slote-0.0.31.ipa",
           "size": 25496275,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.30",
-          "buildVersion": "30",
-          "date": "2026-10-28",
-          "localizedDescription": "Settings: five categories, search, Note experience folded into Appearance",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.30/Slote-0.0.30.ipa",
-          "size": 25492363,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.39",
+      "version": "0.0.40",
       "versionDate": "2026-11-03",
-      "versionDescription": "Sync button: arrows morph into Dew on tap; Dew on the Pick up row",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.39/Slote-0.0.39.ipa",
-      "size": 25531491,
+      "versionDescription": "Zoomed note: bottom bar + top-right take taps again; Dew sync button morph",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.40/Slote-0.0.40.ipa",
+      "size": 25531830,
       "minOSVersion": "14.0"
     }
   ],
