@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.39",
+          "buildVersion": "39",
+          "date": "2026-11-03",
+          "localizedDescription": "Sync button: arrows morph into Dew on tap; Dew on the Pick up row",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.39/Slote-0.0.39.ipa",
+          "size": 25531491,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.38",
           "buildVersion": "38",
           "date": "2026-11-03",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.30/Slote-0.0.30.ipa",
           "size": 25492363,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.28",
-          "buildVersion": "28",
-          "date": "2026-10-28",
-          "localizedDescription": "LaTeX math blocks: Claude equations paste typeset",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.28/Slote-0.0.28.ipa",
-          "size": 25492070,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.38",
+      "version": "0.0.39",
       "versionDate": "2026-11-03",
-      "versionDescription": "Drop a PDF onto a note to import it; PDF pages get rounded ring edges; home zooms as a whole page; Import in the note \u22ef menu",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.38/Slote-0.0.38.ipa",
-      "size": 25506979,
+      "versionDescription": "Sync button: arrows morph into Dew on tap; Dew on the Pick up row",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.39/Slote-0.0.39.ipa",
+      "size": 25531491,
       "minOSVersion": "14.0"
     }
   ],
