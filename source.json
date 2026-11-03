@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.38",
+          "buildVersion": "38",
+          "date": "2026-11-03",
+          "localizedDescription": "Drop a PDF onto a note to import it; PDF pages get rounded ring edges; home zooms as a whole page; Import in the note \u22ef menu",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.38/Slote-0.0.38.ipa",
+          "size": 25506979,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.37",
           "buildVersion": "37",
           "date": "2026-11-02",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.28/Slote-0.0.28.ipa",
           "size": 25492070,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.26",
-          "buildVersion": "26",
-          "date": "2026-10-27",
-          "localizedDescription": "Lasso resize now scales ink thickness with the strokes",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.26/Slote-0.0.26.ipa",
-          "size": 24643221,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.37",
-      "versionDate": "2026-11-02",
-      "versionDescription": "Backspace/Delete now removes a divider below the caret",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.37/Slote-0.0.37.ipa",
-      "size": 25499964,
+      "version": "0.0.38",
+      "versionDate": "2026-11-03",
+      "versionDescription": "Drop a PDF onto a note to import it; PDF pages get rounded ring edges; home zooms as a whole page; Import in the note \u22ef menu",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.38/Slote-0.0.38.ipa",
+      "size": 25506979,
       "minOSVersion": "14.0"
     }
   ],
