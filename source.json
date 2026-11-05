@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.44",
+          "buildVersion": "44",
+          "date": "2026-11-05",
+          "localizedDescription": "Fix: PDF notes could lose their PDF after a save; Refresh now restores it from the cloud. Pen hover scrollbar.",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.44/Slote-0.0.44.ipa",
+          "size": 25648541,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.42",
           "buildVersion": "42",
           "date": "2026-11-05",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.34/Slote-0.0.34.ipa",
           "size": 25494147,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.33",
-          "buildVersion": "33",
-          "date": "2026-10-29",
-          "localizedDescription": "Draw: zig-zag/loopy scribble erases; loop round ink + hold = lasso; two-finger tap = undo",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.33/Slote-0.0.33.ipa",
-          "size": 25494063,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.42",
+      "version": "0.0.44",
       "versionDate": "2026-11-05",
-      "versionDescription": "Desktop scrollbar: hover/drag in draw mode, wheel no longer overshoots PDFs",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.42/Slote-0.0.42.ipa",
-      "size": 25648239,
+      "versionDescription": "Fix: PDF notes could lose their PDF after a save; Refresh now restores it from the cloud. Pen hover scrollbar.",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.44/Slote-0.0.44.ipa",
+      "size": 25648541,
       "minOSVersion": "14.0"
     }
   ],
