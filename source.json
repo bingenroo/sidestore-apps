@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.42",
+          "buildVersion": "42",
+          "date": "2026-11-05",
+          "localizedDescription": "Desktop scrollbar: hover/drag in draw mode, wheel no longer overshoots PDFs",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.42/Slote-0.0.42.ipa",
+          "size": 25648239,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.41",
           "buildVersion": "41",
           "date": "2026-11-03",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.33/Slote-0.0.33.ipa",
           "size": 25494063,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.32",
-          "buildVersion": "32",
-          "date": "2026-10-29",
-          "localizedDescription": "Draw: pen beside eraser, marker moved right; tapping off a tool popup no longer inks; Settings > Scribble to erase toggle",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.32/Slote-0.0.32.ipa",
-          "size": 25497822,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.41",
-      "versionDate": "2026-11-03",
-      "versionDescription": "Sign-up without a 2-Step code: account, emailed code, Home. New devices: Approve this device or recovery key.",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.41/Slote-0.0.41.ipa",
-      "size": 25530796,
+      "version": "0.0.42",
+      "versionDate": "2026-11-05",
+      "versionDescription": "Desktop scrollbar: hover/drag in draw mode, wheel no longer overshoots PDFs",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.42/Slote-0.0.42.ipa",
+      "size": 25648239,
       "minOSVersion": "14.0"
     }
   ],
