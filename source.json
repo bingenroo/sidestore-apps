@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.45",
+          "buildVersion": "45",
+          "date": "2026-11-06",
+          "localizedDescription": "Note drag reorder: no flip-flop ghosting, thumbnails stay put",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.45/Slote-0.0.45.ipa",
+          "size": 25651885,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.44",
           "buildVersion": "44",
           "date": "2026-11-05",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.35/Slote-0.0.35.ipa",
           "size": 25494494,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.34",
-          "buildVersion": "34",
-          "date": "2026-10-29",
-          "localizedDescription": "Phone note bar: folder chip is just the icon (grey = unfiled, outline = filed), more room for the title",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.34/Slote-0.0.34.ipa",
-          "size": 25494147,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.44",
-      "versionDate": "2026-11-05",
-      "versionDescription": "Fix: PDF notes could lose their PDF after a save; Refresh now restores it from the cloud. Pen hover scrollbar.",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.44/Slote-0.0.44.ipa",
-      "size": 25648541,
+      "version": "0.0.45",
+      "versionDate": "2026-11-06",
+      "versionDescription": "Note drag reorder: no flip-flop ghosting, thumbnails stay put",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.45/Slote-0.0.45.ipa",
+      "size": 25651885,
       "minOSVersion": "14.0"
     }
   ],
