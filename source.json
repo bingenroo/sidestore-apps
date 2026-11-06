@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.48",
+          "buildVersion": "48",
+          "date": "2026-11-06",
+          "localizedDescription": "Home: Select notes now selects on tap and the selection bar works; sidebar opens only from a left-edge swipe",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.48/Slote-0.0.48.ipa",
+          "size": 25648996,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.45",
           "buildVersion": "45",
           "date": "2026-11-06",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.36/Slote-0.0.36.ipa",
           "size": 25495020,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.35",
-          "buildVersion": "35",
-          "date": "2026-10-31",
-          "localizedDescription": "Shrunk desktop window: hamburger opens the left panel; All notes renamed Home",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.35/Slote-0.0.35.ipa",
-          "size": 25494494,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.45",
+      "version": "0.0.48",
       "versionDate": "2026-11-06",
-      "versionDescription": "Note drag reorder: no flip-flop ghosting, thumbnails stay put",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.45/Slote-0.0.45.ipa",
-      "size": 25651885,
+      "versionDescription": "Home: Select notes now selects on tap and the selection bar works; sidebar opens only from a left-edge swipe",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.48/Slote-0.0.48.ipa",
+      "size": 25648996,
       "minOSVersion": "14.0"
     }
   ],
