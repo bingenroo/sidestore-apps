@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.50",
+          "buildVersion": "50",
+          "date": "2026-11-09",
+          "localizedDescription": "Copy keeps formatting: pasting into Google Docs/Word keeps headings, lists, bold, links, tables",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.50/Slote-0.0.50.ipa",
+          "size": 25726287,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.49",
           "buildVersion": "49",
           "date": "2026-11-08",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.38/Slote-0.0.38.ipa",
           "size": 25506979,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.37",
-          "buildVersion": "37",
-          "date": "2026-11-02",
-          "localizedDescription": "Backspace/Delete now removes a divider below the caret",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.37/Slote-0.0.37.ipa",
-          "size": 25499964,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.49",
-      "versionDate": "2026-11-08",
-      "versionDescription": "Sidebar level-up: drag notes/folders into folders, onto pane edges to split or corners for a quarter; drag to pin/reorder; Archive/Trash drops; hold-to-drag on touch (release for menu, Select to multi-select). Also: wide tables scroll with their frame, phone keyboards auto-capitalize, + import in Text/Draw, smoother wheel.",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.49/Slote-0.0.49.ipa",
-      "size": 25711832,
+      "version": "0.0.50",
+      "versionDate": "2026-11-09",
+      "versionDescription": "Copy keeps formatting: pasting into Google Docs/Word keeps headings, lists, bold, links, tables",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.50/Slote-0.0.50.ipa",
+      "size": 25726287,
       "minOSVersion": "14.0"
     }
   ],
