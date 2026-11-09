@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.58",
+          "buildVersion": "58",
+          "date": "2026-11-09",
+          "localizedDescription": "Canvas layers: put images/text above or below ink; Layers sheet to restack, hide, lock",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.58/Slote-0.0.58.ipa",
+          "size": 25759569,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.57",
           "buildVersion": "57",
           "date": "2026-11-09",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.44/Slote-0.0.44.ipa",
           "size": 25648541,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.42",
-          "buildVersion": "42",
-          "date": "2026-11-05",
-          "localizedDescription": "Desktop scrollbar: hover/drag in draw mode, wheel no longer overshoots PDFs",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.42/Slote-0.0.42.ipa",
-          "size": 25648239,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.57",
+      "version": "0.0.58",
       "versionDate": "2026-11-09",
-      "versionDescription": "Draw on top of any pasted image",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.57/Slote-0.0.57.ipa",
-      "size": 25751161,
+      "versionDescription": "Canvas layers: put images/text above or below ink; Layers sheet to restack, hide, lock",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.58/Slote-0.0.58.ipa",
+      "size": 25759569,
       "minOSVersion": "14.0"
     }
   ],
