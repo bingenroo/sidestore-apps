@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.53",
+          "buildVersion": "53",
+          "date": "2026-11-09",
+          "localizedDescription": "Export a note's ink as JSON (Export \u2192 Ink .json) for Claude/ChatGPT",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.53/Slote-0.0.53.ipa",
+          "size": 25745005,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.52",
           "buildVersion": "52",
           "date": "2026-11-09",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.40/Slote-0.0.40.ipa",
           "size": 25531830,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.39",
-          "buildVersion": "39",
-          "date": "2026-11-03",
-          "localizedDescription": "Sync button: arrows morph into Dew on tap; Dew on the Pick up row",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.39/Slote-0.0.39.ipa",
-          "size": 25531491,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.52",
+      "version": "0.0.53",
       "versionDate": "2026-11-09",
-      "versionDescription": "Export a note's drawing as SVG (readable by Claude/ChatGPT)",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.52/Slote-0.0.52.ipa",
-      "size": 25739479,
+      "versionDescription": "Export a note's ink as JSON (Export \u2192 Ink .json) for Claude/ChatGPT",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.53/Slote-0.0.53.ipa",
+      "size": 25745005,
       "minOSVersion": "14.0"
     }
   ],
