@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.60",
+          "buildVersion": "60",
+          "date": "2026-11-09",
+          "localizedDescription": "fix(draw): ballpoint, fineliner and marker look distinct at every size",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.60/Slote-0.0.60.ipa",
+          "size": 25800009,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.59",
           "buildVersion": "59",
           "date": "2026-11-09",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.48/Slote-0.0.48.ipa",
           "size": 25648996,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.45",
-          "buildVersion": "45",
-          "date": "2026-11-06",
-          "localizedDescription": "Note drag reorder: no flip-flop ghosting, thumbnails stay put",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.45/Slote-0.0.45.ipa",
-          "size": 25651885,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.59",
+      "version": "0.0.60",
       "versionDate": "2026-11-09",
-      "versionDescription": "Sketchbook-style tools: ruler/ellipse/perspective guides, symmetry, lasso fill, pencil/marker/calligraphy pens, pen opacity, ink replay",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.59/Slote-0.0.59.ipa",
-      "size": 25800440,
+      "versionDescription": "fix(draw): ballpoint, fineliner and marker look distinct at every size",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.60/Slote-0.0.60.ipa",
+      "size": 25800009,
       "minOSVersion": "14.0"
     }
   ],
