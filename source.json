@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.59",
+          "buildVersion": "59",
+          "date": "2026-11-09",
+          "localizedDescription": "Sketchbook-style tools: ruler/ellipse/perspective guides, symmetry, lasso fill, pencil/marker/calligraphy pens, pen opacity, ink replay",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.59/Slote-0.0.59.ipa",
+          "size": 25800440,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.58",
           "buildVersion": "58",
           "date": "2026-11-09",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.45/Slote-0.0.45.ipa",
           "size": 25651885,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.44",
-          "buildVersion": "44",
-          "date": "2026-11-05",
-          "localizedDescription": "Fix: PDF notes could lose their PDF after a save; Refresh now restores it from the cloud. Pen hover scrollbar.",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.44/Slote-0.0.44.ipa",
-          "size": 25648541,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.58",
+      "version": "0.0.59",
       "versionDate": "2026-11-09",
-      "versionDescription": "Canvas layers: put images/text above or below ink; Layers sheet to restack, hide, lock",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.58/Slote-0.0.58.ipa",
-      "size": 25759569,
+      "versionDescription": "Sketchbook-style tools: ruler/ellipse/perspective guides, symmetry, lasso fill, pencil/marker/calligraphy pens, pen opacity, ink replay",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.59/Slote-0.0.59.ipa",
+      "size": 25800440,
       "minOSVersion": "14.0"
     }
   ],
