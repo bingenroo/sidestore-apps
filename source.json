@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.52",
+          "buildVersion": "52",
+          "date": "2026-11-09",
+          "localizedDescription": "Export a note's drawing as SVG (readable by Claude/ChatGPT)",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.52/Slote-0.0.52.ipa",
+          "size": 25739479,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.50",
           "buildVersion": "50",
           "date": "2026-11-09",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.39/Slote-0.0.39.ipa",
           "size": 25531491,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.38",
-          "buildVersion": "38",
-          "date": "2026-11-03",
-          "localizedDescription": "Drop a PDF onto a note to import it; PDF pages get rounded ring edges; home zooms as a whole page; Import in the note \u22ef menu",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.38/Slote-0.0.38.ipa",
-          "size": 25506979,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.50",
+      "version": "0.0.52",
       "versionDate": "2026-11-09",
-      "versionDescription": "Copy keeps formatting: pasting into Google Docs/Word keeps headings, lists, bold, links, tables",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.50/Slote-0.0.50.ipa",
-      "size": 25726287,
+      "versionDescription": "Export a note's drawing as SVG (readable by Claude/ChatGPT)",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.52/Slote-0.0.52.ipa",
+      "size": 25739479,
       "minOSVersion": "14.0"
     }
   ],
