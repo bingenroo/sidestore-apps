@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.57",
+          "buildVersion": "57",
+          "date": "2026-11-09",
+          "localizedDescription": "Draw on top of any pasted image",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.57/Slote-0.0.57.ipa",
+          "size": 25751161,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.56",
           "buildVersion": "56",
           "date": "2026-11-09",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.42/Slote-0.0.42.ipa",
           "size": 25648239,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.41",
-          "buildVersion": "41",
-          "date": "2026-11-03",
-          "localizedDescription": "Sign-up without a 2-Step code: account, emailed code, Home. New devices: Approve this device or recovery key.",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.41/Slote-0.0.41.ipa",
-          "size": 25530796,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.56",
+      "version": "0.0.57",
       "versionDate": "2026-11-09",
-      "versionDescription": "Ink over an image is selectable; image elsewhere",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.56/Slote-0.0.56.ipa",
-      "size": 25754234,
+      "versionDescription": "Draw on top of any pasted image",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.57/Slote-0.0.57.ipa",
+      "size": 25751161,
       "minOSVersion": "14.0"
     }
   ],
