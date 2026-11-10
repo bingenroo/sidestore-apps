@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.63",
+          "buildVersion": "63",
+          "date": "2026-11-10",
+          "localizedDescription": "PDF text in library search, selection handles, EPUB Read-mode select + highlight",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.63/Slote-0.0.63.ipa",
+          "size": 25825127,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.62",
           "buildVersion": "62",
           "date": "2026-11-10",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.52/Slote-0.0.52.ipa",
           "size": 25739479,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.50",
-          "buildVersion": "50",
-          "date": "2026-11-09",
-          "localizedDescription": "Copy keeps formatting: pasting into Google Docs/Word keeps headings, lists, bold, links, tables",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.50/Slote-0.0.50.ipa",
-          "size": 25726287,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.62",
+      "version": "0.0.63",
       "versionDate": "2026-11-10",
-      "versionDescription": "OCR text layer for PDFs (find/select/copy/highlight) + EPUB find & highlight",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.62/Slote-0.0.62.ipa",
-      "size": 25821313,
+      "versionDescription": "PDF text in library search, selection handles, EPUB Read-mode select + highlight",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.63/Slote-0.0.63.ipa",
+      "size": 25825127,
       "minOSVersion": "14.0"
     }
   ],
