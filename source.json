@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.62",
+          "buildVersion": "62",
+          "date": "2026-11-10",
+          "localizedDescription": "OCR text layer for PDFs (find/select/copy/highlight) + EPUB find & highlight",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.62/Slote-0.0.62.ipa",
+          "size": 25821313,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.61",
           "buildVersion": "61",
           "date": "2026-11-10",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.50/Slote-0.0.50.ipa",
           "size": 25726287,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.49",
-          "buildVersion": "49",
-          "date": "2026-11-08",
-          "localizedDescription": "Sidebar level-up: drag notes/folders into folders, onto pane edges to split or corners for a quarter; drag to pin/reorder; Archive/Trash drops; hold-to-drag on touch (release for menu, Select to multi-select). Also: wide tables scroll with their frame, phone keyboards auto-capitalize, + import in Text/Draw, smoother wheel.",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.49/Slote-0.0.49.ipa",
-          "size": 25711832,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.61",
+      "version": "0.0.62",
       "versionDate": "2026-11-10",
-      "versionDescription": "Note bar: empty title pill hidden; folder chip no longer shifts while typing",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.61/Slote-0.0.61.ipa",
-      "size": 25800867,
+      "versionDescription": "OCR text layer for PDFs (find/select/copy/highlight) + EPUB find & highlight",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.62/Slote-0.0.62.ipa",
+      "size": 25821313,
       "minOSVersion": "14.0"
     }
   ],
