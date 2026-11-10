@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.61",
+          "buildVersion": "61",
+          "date": "2026-11-10",
+          "localizedDescription": "Note bar: empty title pill hidden; folder chip no longer shifts while typing",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.61/Slote-0.0.61.ipa",
+          "size": 25800867,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.60",
           "buildVersion": "60",
           "date": "2026-11-09",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.49/Slote-0.0.49.ipa",
           "size": 25711832,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.48",
-          "buildVersion": "48",
-          "date": "2026-11-06",
-          "localizedDescription": "Home: Select notes now selects on tap and the selection bar works; sidebar opens only from a left-edge swipe",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.48/Slote-0.0.48.ipa",
-          "size": 25648996,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.60",
-      "versionDate": "2026-11-09",
-      "versionDescription": "fix(draw): ballpoint, fineliner and marker look distinct at every size",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.60/Slote-0.0.60.ipa",
-      "size": 25800009,
+      "version": "0.0.61",
+      "versionDate": "2026-11-10",
+      "versionDescription": "Note bar: empty title pill hidden; folder chip no longer shifts while typing",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.61/Slote-0.0.61.ipa",
+      "size": 25800867,
       "minOSVersion": "14.0"
     }
   ],
