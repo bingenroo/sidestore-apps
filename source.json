@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.64",
+          "buildVersion": "64",
+          "date": "2026-11-10",
+          "localizedDescription": "TOC: in-page table of contents on desktop, Docs-style drag outline on phone",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.64/Slote-0.0.64.ipa",
+          "size": 25849256,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.63",
           "buildVersion": "63",
           "date": "2026-11-10",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.53/Slote-0.0.53.ipa",
           "size": 25745005,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.52",
-          "buildVersion": "52",
-          "date": "2026-11-09",
-          "localizedDescription": "Export a note's drawing as SVG (readable by Claude/ChatGPT)",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.52/Slote-0.0.52.ipa",
-          "size": 25739479,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.63",
+      "version": "0.0.64",
       "versionDate": "2026-11-10",
-      "versionDescription": "PDF text in library search, selection handles, EPUB Read-mode select + highlight",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.63/Slote-0.0.63.ipa",
-      "size": 25825127,
+      "versionDescription": "TOC: in-page table of contents on desktop, Docs-style drag outline on phone",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.64/Slote-0.0.64.ipa",
+      "size": 25849256,
       "minOSVersion": "14.0"
     }
   ],
