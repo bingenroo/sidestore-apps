@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.66",
+          "buildVersion": "66",
+          "date": "2026-11-11",
+          "localizedDescription": "Settings \u2192 Connected apps: one-tap Connect for Claude, copy commands for Claude Code, ChatGPT, Codex",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.66/Slote-0.0.66.ipa",
+          "size": 25847180,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.65",
           "buildVersion": "65",
           "date": "2026-11-11",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.57/Slote-0.0.57.ipa",
           "size": 25751161,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.56",
-          "buildVersion": "56",
-          "date": "2026-11-09",
-          "localizedDescription": "Ink over an image is selectable; image elsewhere",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.56/Slote-0.0.56.ipa",
-          "size": 25754234,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.65",
+      "version": "0.0.66",
       "versionDate": "2026-11-11",
-      "versionDescription": "desktop TOC starts collapsed",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.65/Slote-0.0.65.ipa",
-      "size": 25849091,
+      "versionDescription": "Settings \u2192 Connected apps: one-tap Connect for Claude, copy commands for Claude Code, ChatGPT, Codex",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.66/Slote-0.0.66.ipa",
+      "size": 25847180,
       "minOSVersion": "14.0"
     }
   ],
