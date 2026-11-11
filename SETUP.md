@@ -13,6 +13,12 @@ loop is phone-only.
 > workflow; read its log with `slote/tools/ios/buildlog.sh <run-id>`. Sections 1–2
 > below still apply to hd-reborn.
 >
+> **Slote's Android APK builds in the same run** (`android` job, ubuntu): it is signed with
+> `ANDROID_KEYSTORE_BASE64` + `ANDROID_KEY_PROPERTIES` (the upload key; backup on the user's
+> D:\Code\slote-signing and their password manager) and attached to the same `slote-vX.Y.Z`
+> release. Phones update via Obtainium: add `https://github.com/bingenroo/sidestore-apps`,
+> filter release titles by `^Slote`, APK filter `\.apk$`. Log: `buildlog.sh <run-id> android`.
+>
 > **Dex builds here too** (`.github/workflows/build-dex.yml`), the same way: deploy key
 > `DEX_DEPLOY_KEY` (read-only on `bingenroo/dex`), the shared `LOG_KEY`, XcodeGen from
 > `dex/native/project.yml`. `publish=false` is a compile check; read its log with
