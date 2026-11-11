@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.68",
+          "buildVersion": "68",
+          "date": "2026-11-11",
+          "localizedDescription": "Connected apps: chat apps vs coding agents; desktop Connect for Claude Code/Codex",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.68/Slote-0.0.68.ipa",
+          "size": 25848488,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.67",
           "buildVersion": "67",
           "date": "2026-11-11",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.59/Slote-0.0.59.ipa",
           "size": 25800440,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.58",
-          "buildVersion": "58",
-          "date": "2026-11-09",
-          "localizedDescription": "Canvas layers: put images/text above or below ink; Layers sheet to restack, hide, lock",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.58/Slote-0.0.58.ipa",
-          "size": 25759569,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.67",
+      "version": "0.0.68",
       "versionDate": "2026-11-11",
-      "versionDescription": "First signed Android APK alongside iOS",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.67/Slote-0.0.67.ipa",
-      "size": 25847179,
+      "versionDescription": "Connected apps: chat apps vs coding agents; desktop Connect for Claude Code/Codex",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.68/Slote-0.0.68.ipa",
+      "size": 25848488,
       "minOSVersion": "14.0"
     }
   ],
