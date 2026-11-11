@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.67",
+          "buildVersion": "67",
+          "date": "2026-11-11",
+          "localizedDescription": "First signed Android APK alongside iOS",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.67/Slote-0.0.67.ipa",
+          "size": 25847179,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.66",
           "buildVersion": "66",
           "date": "2026-11-11",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.58/Slote-0.0.58.ipa",
           "size": 25759569,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.57",
-          "buildVersion": "57",
-          "date": "2026-11-09",
-          "localizedDescription": "Draw on top of any pasted image",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.57/Slote-0.0.57.ipa",
-          "size": 25751161,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.66",
+      "version": "0.0.67",
       "versionDate": "2026-11-11",
-      "versionDescription": "Settings \u2192 Connected apps: one-tap Connect for Claude, copy commands for Claude Code, ChatGPT, Codex",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.66/Slote-0.0.66.ipa",
-      "size": 25847180,
+      "versionDescription": "First signed Android APK alongside iOS",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.67/Slote-0.0.67.ipa",
+      "size": 25847179,
       "minOSVersion": "14.0"
     }
   ],
