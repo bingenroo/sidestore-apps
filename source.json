@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.85",
+          "buildVersion": "85",
+          "date": "2026-11-14",
+          "localizedDescription": "fix(editor): caret follows a long paste past the old page bottom",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.85/Slote-0.0.85.ipa",
+          "size": 25871018,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.84",
           "buildVersion": "84",
           "date": "2026-11-14",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.75/Slote-0.0.75.ipa",
           "size": 25861456,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.74",
-          "buildVersion": "74",
-          "date": "2026-11-14",
-          "localizedDescription": "Zoom: zooming out from above 100% stops at 100%; pinch again to go smaller",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.74/Slote-0.0.74.ipa",
-          "size": 25849724,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.84",
+      "version": "0.0.85",
       "versionDate": "2026-11-14",
-      "versionDescription": "Home: book notes show the EPUB cover on their cards",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.84/Slote-0.0.84.ipa",
-      "size": 25871710,
+      "versionDescription": "fix(editor): caret follows a long paste past the old page bottom",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.85/Slote-0.0.85.ipa",
+      "size": 25871018,
       "minOSVersion": "14.0"
     }
   ],
