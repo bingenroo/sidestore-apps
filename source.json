@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.74",
+          "buildVersion": "74",
+          "date": "2026-11-14",
+          "localizedDescription": "Zoom: zooming out from above 100% stops at 100%; pinch again to go smaller",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.74/Slote-0.0.74.ipa",
+          "size": 25849724,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.73",
           "buildVersion": "73",
           "date": "2026-11-14",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.63/Slote-0.0.63.ipa",
           "size": 25825127,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.62",
-          "buildVersion": "62",
-          "date": "2026-11-10",
-          "localizedDescription": "OCR text layer for PDFs (find/select/copy/highlight) + EPUB find & highlight",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.62/Slote-0.0.62.ipa",
-          "size": 25821313,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.73",
+      "version": "0.0.74",
       "versionDate": "2026-11-14",
-      "versionDescription": "Zoom: Cmd/Ctrl +/- and the \u22ef menu change text size in one step; pinch and Ctrl+scroll zoom the canvas",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.73/Slote-0.0.73.ipa",
-      "size": 25848216,
+      "versionDescription": "Zoom: zooming out from above 100% stops at 100%; pinch again to go smaller",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.74/Slote-0.0.74.ipa",
+      "size": 25849724,
       "minOSVersion": "14.0"
     }
   ],
