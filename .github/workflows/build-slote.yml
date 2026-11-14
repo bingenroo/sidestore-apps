@@ -408,6 +408,9 @@ jobs:
 
       - name: Build windows (output in encrypted log)
         working-directory: slote
+        env:
+          # The runner's CMake 4 rejects firebase_cpp_sdk's cmake_minimum_required < 3.5.
+          CMAKE_POLICY_VERSION_MINIMUM: '3.5'
         run: |
           set -euo pipefail
           {
