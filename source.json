@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.80",
+          "buildVersion": "80",
+          "date": "2026-11-14",
+          "localizedDescription": "Lasso bar 44pt targets; book ink follows theme and saves on close; text boxes keep colour across themes; newer pen names survive re-save",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.80/Slote-0.0.80.ipa",
+          "size": 25894406,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.78",
           "buildVersion": "78",
           "date": "2026-11-14",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.68/Slote-0.0.68.ipa",
           "size": 25848488,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.67",
-          "buildVersion": "67",
-          "date": "2026-11-11",
-          "localizedDescription": "First signed Android APK alongside iOS",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.67/Slote-0.0.67.ipa",
-          "size": 25847179,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.78",
+      "version": "0.0.80",
       "versionDate": "2026-11-14",
-      "versionDescription": "Send feedback page: one flat form per the design spec (no card in a card); lasso bar tap targets; book ink fixes",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.78/Slote-0.0.78.ipa",
-      "size": 25869929,
+      "versionDescription": "Lasso bar 44pt targets; book ink follows theme and saves on close; text boxes keep colour across themes; newer pen names survive re-save",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.80/Slote-0.0.80.ipa",
+      "size": 25894406,
       "minOSVersion": "14.0"
     }
   ],
