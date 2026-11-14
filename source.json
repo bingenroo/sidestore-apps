@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.84",
+          "buildVersion": "84",
+          "date": "2026-11-14",
+          "localizedDescription": "Home: book notes show the EPUB cover on their cards",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.84/Slote-0.0.84.ipa",
+          "size": 25871710,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.83",
           "buildVersion": "83",
           "date": "2026-11-14",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.74/Slote-0.0.74.ipa",
           "size": 25849724,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.73",
-          "buildVersion": "73",
-          "date": "2026-11-14",
-          "localizedDescription": "Zoom: Cmd/Ctrl +/- and the \u22ef menu change text size in one step; pinch and Ctrl+scroll zoom the canvas",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.73/Slote-0.0.73.ipa",
-          "size": 25848216,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.83",
+      "version": "0.0.84",
       "versionDate": "2026-11-14",
-      "versionDescription": "Design spec: EPUB wears create note's chrome; PDF selection blue and find amber; selected state is an ink plate; one 42px menu row; one 34px search field; raised settings groups; one back disc; floating selection capsule",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.83/Slote-0.0.83.ipa",
-      "size": 25868323,
+      "versionDescription": "Home: book notes show the EPUB cover on their cards",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.84/Slote-0.0.84.ipa",
+      "size": 25871710,
       "minOSVersion": "14.0"
     }
   ],
