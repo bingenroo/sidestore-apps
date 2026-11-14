@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.81",
+          "buildVersion": "81",
+          "date": "2026-11-14",
+          "localizedDescription": "First Windows zip: desktop Slote updates itself from Settings \u203a Updates",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.81/Slote-0.0.81.ipa",
+          "size": 25872973,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.80",
           "buildVersion": "80",
           "date": "2026-11-14",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.69/Slote-0.0.69.ipa",
           "size": 25846461,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.68",
-          "buildVersion": "68",
-          "date": "2026-11-11",
-          "localizedDescription": "Connected apps: chat apps vs coding agents; desktop Connect for Claude Code/Codex",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.68/Slote-0.0.68.ipa",
-          "size": 25848488,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.80",
+      "version": "0.0.81",
       "versionDate": "2026-11-14",
-      "versionDescription": "Lasso bar 44pt targets; book ink follows theme and saves on close; text boxes keep colour across themes; newer pen names survive re-save",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.80/Slote-0.0.80.ipa",
-      "size": 25894406,
+      "versionDescription": "First Windows zip: desktop Slote updates itself from Settings \u203a Updates",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.81/Slote-0.0.81.ipa",
+      "size": 25872973,
       "minOSVersion": "14.0"
     }
   ],
