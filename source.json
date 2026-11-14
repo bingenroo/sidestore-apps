@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.69",
+          "buildVersion": "69",
+          "date": "2026-11-14",
+          "localizedDescription": "Phone TOC: normal scrollbar, dragging it shows the outline",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.69/Slote-0.0.69.ipa",
+          "size": 25846461,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.68",
           "buildVersion": "68",
           "date": "2026-11-11",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.60/Slote-0.0.60.ipa",
           "size": 25800009,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.59",
-          "buildVersion": "59",
-          "date": "2026-11-09",
-          "localizedDescription": "Sketchbook-style tools: ruler/ellipse/perspective guides, symmetry, lasso fill, pencil/marker/calligraphy pens, pen opacity, ink replay",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.59/Slote-0.0.59.ipa",
-          "size": 25800440,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.68",
-      "versionDate": "2026-11-11",
-      "versionDescription": "Connected apps: chat apps vs coding agents; desktop Connect for Claude Code/Codex",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.68/Slote-0.0.68.ipa",
-      "size": 25848488,
+      "version": "0.0.69",
+      "versionDate": "2026-11-14",
+      "versionDescription": "Phone TOC: normal scrollbar, dragging it shows the outline",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.69/Slote-0.0.69.ipa",
+      "size": 25846461,
       "minOSVersion": "14.0"
     }
   ],
