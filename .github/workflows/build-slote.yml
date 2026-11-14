@@ -24,6 +24,10 @@ on:
         description: 'Release notes shown in SideStore'
         required: false
         default: ''
+      only:
+        description: 'Build one job only (build, android or windows) to retry it onto an existing release'
+        required: false
+        default: ''
 
 permissions:
   contents: write   # release + source.json commit, both in this repo
@@ -41,6 +45,7 @@ env:
 
 jobs:
   build:
+    if: inputs.only == '' || inputs.only == 'build'
     runs-on: macos-15
     timeout-minutes: 45
 
@@ -212,6 +217,7 @@ jobs:
           retention-days: 30
 
   android:
+    if: inputs.only == '' || inputs.only == 'android'
     runs-on: ubuntu-latest
     timeout-minutes: 45
 
@@ -341,7 +347,9 @@ jobs:
 
   # Desktop Slote updates itself from this zip (Settings › Updates).
   windows:
-    runs-on: windows-latest
+    if: inputs.only == '' || inputs.only == 'windows'
+    # VS 18 on windows-latest hard-fails local_auth_windows' /await coroutines.
+    runs-on: windows-2022
     timeout-minutes: 45
     defaults:
       run:
