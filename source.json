@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.76",
+          "buildVersion": "76",
+          "date": "2026-11-14",
+          "localizedDescription": "Typing on a phone keeps the note title visible in the top bar",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.76/Slote-0.0.76.ipa",
+          "size": 25861242,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.75",
           "buildVersion": "75",
           "date": "2026-11-14",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.65/Slote-0.0.65.ipa",
           "size": 25849091,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.64",
-          "buildVersion": "64",
-          "date": "2026-11-10",
-          "localizedDescription": "TOC: in-page table of contents on desktop, Docs-style drag outline on phone",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.64/Slote-0.0.64.ipa",
-          "size": 25849256,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.75",
+      "version": "0.0.76",
       "versionDate": "2026-11-14",
-      "versionDescription": "Drawing audit: held shapes snap clean, lasso bar on-screen with Convert to text everywhere, steady toolbars/popups, yellow highlighter, eraser/undo/theme-ink/PDF-opacity fixes",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.75/Slote-0.0.75.ipa",
-      "size": 25861456,
+      "versionDescription": "Typing on a phone keeps the note title visible in the top bar",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.76/Slote-0.0.76.ipa",
+      "size": 25861242,
       "minOSVersion": "14.0"
     }
   ],
