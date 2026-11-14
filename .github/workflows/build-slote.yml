@@ -1,4 +1,4 @@
-name: Build Slote IPA + APK
+name: Build Slote IPA + APK + Windows
 
 # Runs here, not in the private slote repo, because public repos get macOS
 # minutes free. The slote source is fetched with a read-only deploy key and
@@ -8,7 +8,8 @@ name: Build Slote IPA + APK
 # slote/tools/ios/buildlog.sh <run-id> [android].
 #
 # The ios and android jobs run in parallel and attach to the same
-# slote-vX.Y.Z release; Android phones update from it through Obtainium.
+# slote-vX.Y.Z release; Android phones update from it through Obtainium,
+# Windows from inside the app.
 #
 # Only someone with write access can dispatch, so the secrets never reach a
 # fork. Start it from slote/tools/ios/ship.sh, or from the Actions tab.
@@ -335,5 +336,118 @@ jobs:
         if: always()
         with:
           name: build-log-android
+          path: build.log.enc
+          retention-days: 30
+
+  # Desktop Slote updates itself from this zip (Settings › Updates).
+  windows:
+    runs-on: windows-latest
+    timeout-minutes: 45
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+      - name: Fetch slote source
+        env:
+          DEPLOY_KEY: ${{ secrets.SLOTE_DEPLOY_KEY }}
+          REF: ${{ inputs.ref }}
+        run: |
+          set -euo pipefail
+          KEY="$(cygpath -u "$RUNNER_TEMP")/slote_key"
+          printf '%s\n' "$DEPLOY_KEY" > "$KEY"
+          chmod 600 "$KEY"
+          export GIT_SSH_COMMAND="ssh -i $KEY -o StrictHostKeyChecking=accept-new -o LogLevel=ERROR"
+          git init -q slote
+          git -C slote remote add origin git@github.com:bingenroo/slote.git
+          git -C slote fetch -q --depth 1 origin "$REF"
+          git -C slote checkout -q FETCH_HEAD
+          rm -f "$KEY"
+
+      # Same rule as the ios job; both resolve before either publishes.
+      - name: Resolve version
+        id: ver
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REF: ${{ inputs.ref }}
+        run: |
+          set -euo pipefail
+          if [[ "$REF" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]]; then
+            VERSION="${REF#v}"
+          else
+            LAST=$(gh release list -R "$GITHUB_REPOSITORY" -L 500 --json tagName -q '.[].tagName' \
+              | sed -n "s/^${RELEASE_PREFIX}-v//p" | sort -V | tail -1)
+            VERSION="0.0.$(( ${LAST##*.} + 1 ))"
+          fi
+          echo "version=$VERSION"  >> "$GITHUB_OUTPUT"
+          echo "build=${VERSION##*.}" >> "$GITHUB_OUTPUT"
+          echo "sha=$(git -C slote rev-parse --short HEAD)" >> "$GITHUB_OUTPUT"
+          echo "Building $VERSION"
+
+      # The app compares its +N against the release tag.
+      - name: Stamp version into pubspec.yaml
+        working-directory: slote
+        run: |
+          V="${{ steps.ver.outputs.version }}+${{ steps.ver.outputs.build }}"
+          sed -i -E "s/^version: .*/version: $V/" pubspec.yaml
+
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.47.7'   # the pinned local baseline
+          channel: stable
+          cache: true
+
+      - name: Write dart-define env
+        env:
+          PROD_ENV_JSON: ${{ secrets.PROD_ENV_JSON }}
+        run: |
+          set -euo pipefail
+          [ -n "$PROD_ENV_JSON" ] || { echo "::error::PROD_ENV_JSON secret missing"; exit 1; }
+          mkdir -p slote/env
+          printf '%s' "$PROD_ENV_JSON" > slote/env/prod.json
+
+      - name: Build windows (output in encrypted log)
+        working-directory: slote
+        run: |
+          set -euo pipefail
+          {
+            flutter pub get
+            flutter build windows --release --dart-define-from-file=env/prod.json --verbose
+          } >> "$LOG" 2>&1
+
+      - name: Publish release asset
+        env:
+          GH_TOKEN: ${{ github.token }}
+          INPUT_NOTES: ${{ inputs.notes }}
+        run: |
+          set -euo pipefail
+          VERSION="${{ steps.ver.outputs.version }}"
+          TAG="${RELEASE_PREFIX}-v${VERSION}"
+          ZIP="$(cygpath -u "$RUNNER_TEMP")/${APP_NAME}-${VERSION}-windows.zip"
+          # Files at the zip root: the app extracts it over its own folder.
+          ( cd slote/build/windows/x64/runner/Release && 7z a -tzip "$(cygpath -w "$ZIP")" . > /dev/null )
+          NOTES="${INPUT_NOTES:-}"
+          [ -n "$NOTES" ] || NOTES="${APP_NAME} ${VERSION} (${{ steps.ver.outputs.sha }})"
+          # The ios or android job may have created the release first.
+          gh release create "$TAG" -R "$GITHUB_REPOSITORY" \
+            --title "${APP_NAME} ${VERSION}" --notes "$NOTES" \
+            || gh release view "$TAG" -R "$GITHUB_REPOSITORY" >/dev/null
+          gh release upload "$TAG" "$ZIP" -R "$GITHUB_REPOSITORY" --clobber
+          echo "Published https://github.com/${GITHUB_REPOSITORY}/releases/download/${TAG}/$(basename "$ZIP")"
+
+      - name: Encrypt build log
+        if: always()
+        env:
+          LOG_KEY: ${{ secrets.LOG_KEY }}
+        run: |
+          touch "$LOG"
+          openssl enc -aes-256-cbc -pbkdf2 -salt \
+            -in "$LOG" -out build.log.enc -pass env:LOG_KEY
+          rm -f "$LOG"
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: build-log-windows
           path: build.log.enc
           retention-days: 30
