@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.82",
+          "buildVersion": "82",
+          "date": "2026-11-14",
+          "localizedDescription": "Ticked task boxes use your accent; Ctrl K no longer lists loose title matches",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.82/Slote-0.0.82.ipa",
+          "size": 25873406,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.81",
           "buildVersion": "81",
           "date": "2026-11-14",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.72/Slote-0.0.72.ipa",
           "size": 25846427,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.69",
-          "buildVersion": "69",
-          "date": "2026-11-14",
-          "localizedDescription": "Phone TOC: normal scrollbar, dragging it shows the outline",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.69/Slote-0.0.69.ipa",
-          "size": 25846461,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.81",
+      "version": "0.0.82",
       "versionDate": "2026-11-14",
-      "versionDescription": "First Windows zip: desktop Slote updates itself from Settings \u203a Updates",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.81/Slote-0.0.81.ipa",
-      "size": 25872973,
+      "versionDescription": "Ticked task boxes use your accent; Ctrl K no longer lists loose title matches",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.82/Slote-0.0.82.ipa",
+      "size": 25873406,
       "minOSVersion": "14.0"
     }
   ],
