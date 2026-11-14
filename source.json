@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.75",
+          "buildVersion": "75",
+          "date": "2026-11-14",
+          "localizedDescription": "Drawing audit: held shapes snap clean, lasso bar on-screen with Convert to text everywhere, steady toolbars/popups, yellow highlighter, eraser/undo/theme-ink/PDF-opacity fixes",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.75/Slote-0.0.75.ipa",
+          "size": 25861456,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.74",
           "buildVersion": "74",
           "date": "2026-11-14",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.64/Slote-0.0.64.ipa",
           "size": 25849256,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.63",
-          "buildVersion": "63",
-          "date": "2026-11-10",
-          "localizedDescription": "PDF text in library search, selection handles, EPUB Read-mode select + highlight",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.63/Slote-0.0.63.ipa",
-          "size": 25825127,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.74",
+      "version": "0.0.75",
       "versionDate": "2026-11-14",
-      "versionDescription": "Zoom: zooming out from above 100% stops at 100%; pinch again to go smaller",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.74/Slote-0.0.74.ipa",
-      "size": 25849724,
+      "versionDescription": "Drawing audit: held shapes snap clean, lasso bar on-screen with Convert to text everywhere, steady toolbars/popups, yellow highlighter, eraser/undo/theme-ink/PDF-opacity fixes",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.75/Slote-0.0.75.ipa",
+      "size": 25861456,
       "minOSVersion": "14.0"
     }
   ],
