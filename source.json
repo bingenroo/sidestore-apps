@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.72",
+          "buildVersion": "72",
+          "date": "2026-11-14",
+          "localizedDescription": "Editor: typing into a new blank line no longer nudges the lines below",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.72/Slote-0.0.72.ipa",
+          "size": 25846427,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.69",
           "buildVersion": "69",
           "date": "2026-11-14",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.61/Slote-0.0.61.ipa",
           "size": 25800867,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.60",
-          "buildVersion": "60",
-          "date": "2026-11-09",
-          "localizedDescription": "fix(draw): ballpoint, fineliner and marker look distinct at every size",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.60/Slote-0.0.60.ipa",
-          "size": 25800009,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.69",
+      "version": "0.0.72",
       "versionDate": "2026-11-14",
-      "versionDescription": "Phone TOC: normal scrollbar, dragging it shows the outline",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.69/Slote-0.0.69.ipa",
-      "size": 25846461,
+      "versionDescription": "Editor: typing into a new blank line no longer nudges the lines below",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.72/Slote-0.0.72.ipa",
+      "size": 25846427,
       "minOSVersion": "14.0"
     }
   ],
