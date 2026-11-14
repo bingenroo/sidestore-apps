@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.83",
+          "buildVersion": "83",
+          "date": "2026-11-14",
+          "localizedDescription": "Design spec: EPUB wears create note's chrome; PDF selection blue and find amber; selected state is an ink plate; one 42px menu row; one 34px search field; raised settings groups; one back disc; floating selection capsule",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.83/Slote-0.0.83.ipa",
+          "size": 25868323,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.82",
           "buildVersion": "82",
           "date": "2026-11-14",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.73/Slote-0.0.73.ipa",
           "size": 25848216,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.72",
-          "buildVersion": "72",
-          "date": "2026-11-14",
-          "localizedDescription": "Editor: typing into a new blank line no longer nudges the lines below",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.72/Slote-0.0.72.ipa",
-          "size": 25846427,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.82",
+      "version": "0.0.83",
       "versionDate": "2026-11-14",
-      "versionDescription": "Ticked task boxes use your accent; Ctrl K no longer lists loose title matches",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.82/Slote-0.0.82.ipa",
-      "size": 25873406,
+      "versionDescription": "Design spec: EPUB wears create note's chrome; PDF selection blue and find amber; selected state is an ink plate; one 42px menu row; one 34px search field; raised settings groups; one back disc; floating selection capsule",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.83/Slote-0.0.83.ipa",
+      "size": 25868323,
       "minOSVersion": "14.0"
     }
   ],
