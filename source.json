@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.73",
+          "buildVersion": "73",
+          "date": "2026-11-14",
+          "localizedDescription": "Zoom: Cmd/Ctrl +/- and the \u22ef menu change text size in one step; pinch and Ctrl+scroll zoom the canvas",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.73/Slote-0.0.73.ipa",
+          "size": 25848216,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.72",
           "buildVersion": "72",
           "date": "2026-11-14",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.62/Slote-0.0.62.ipa",
           "size": 25821313,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.61",
-          "buildVersion": "61",
-          "date": "2026-11-10",
-          "localizedDescription": "Note bar: empty title pill hidden; folder chip no longer shifts while typing",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.61/Slote-0.0.61.ipa",
-          "size": 25800867,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.72",
+      "version": "0.0.73",
       "versionDate": "2026-11-14",
-      "versionDescription": "Editor: typing into a new blank line no longer nudges the lines below",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.72/Slote-0.0.72.ipa",
-      "size": 25846427,
+      "versionDescription": "Zoom: Cmd/Ctrl +/- and the \u22ef menu change text size in one step; pinch and Ctrl+scroll zoom the canvas",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.73/Slote-0.0.73.ipa",
+      "size": 25848216,
       "minOSVersion": "14.0"
     }
   ],
