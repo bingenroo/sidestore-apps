@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.78",
+          "buildVersion": "78",
+          "date": "2026-11-14",
+          "localizedDescription": "Send feedback page: one flat form per the design spec (no card in a card); lasso bar tap targets; book ink fixes",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.78/Slote-0.0.78.ipa",
+          "size": 25869929,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.77",
           "buildVersion": "77",
           "date": "2026-11-14",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.67/Slote-0.0.67.ipa",
           "size": 25847179,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.66",
-          "buildVersion": "66",
-          "date": "2026-11-11",
-          "localizedDescription": "Settings \u2192 Connected apps: one-tap Connect for Claude, copy commands for Claude Code, ChatGPT, Codex",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.66/Slote-0.0.66.ipa",
-          "size": 25847180,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.77",
+      "version": "0.0.78",
       "versionDate": "2026-11-14",
-      "versionDescription": "Ink keeps its place on the page on every device and window size; selection can't leave the page; scratch-out spares fills; theme no longer rewrites ink; desktop stylus-only toggle; draw a11y (colour names, slider values, 44pt targets); faster selection drag",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.77/Slote-0.0.77.ipa",
-      "size": 25865646,
+      "versionDescription": "Send feedback page: one flat form per the design spec (no card in a card); lasso bar tap targets; book ink fixes",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.78/Slote-0.0.78.ipa",
+      "size": 25869929,
       "minOSVersion": "14.0"
     }
   ],
