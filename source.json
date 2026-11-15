@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.88",
+          "buildVersion": "88",
+          "date": "2026-11-15",
+          "localizedDescription": "Side panel opens notes in a new tab; swipe a tab card left to close (Undo)",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.88/Slote-0.0.88.ipa",
+          "size": 25884441,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.87",
           "buildVersion": "87",
           "date": "2026-11-15",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.78/Slote-0.0.78.ipa",
           "size": 25869929,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.77",
-          "buildVersion": "77",
-          "date": "2026-11-14",
-          "localizedDescription": "Ink keeps its place on the page on every device and window size; selection can't leave the page; scratch-out spares fills; theme no longer rewrites ink; desktop stylus-only toggle; draw a11y (colour names, slider values, 44pt targets); faster selection drag",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.77/Slote-0.0.77.ipa",
-          "size": 25865646,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.87",
+      "version": "0.0.88",
       "versionDate": "2026-11-15",
-      "versionDescription": "Feedback: attach screenshots, videos and documents; 'Receive reply at'",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.87/Slote-0.0.87.ipa",
-      "size": 25878888,
+      "versionDescription": "Side panel opens notes in a new tab; swipe a tab card left to close (Undo)",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.88/Slote-0.0.88.ipa",
+      "size": 25884441,
       "minOSVersion": "14.0"
     }
   ],
