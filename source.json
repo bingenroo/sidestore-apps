@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.86",
+          "buildVersion": "86",
+          "date": "2026-11-15",
+          "localizedDescription": "Phone note: swipe from the left edge opens the side panel instead of going back home",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.86/Slote-0.0.86.ipa",
+          "size": 25868811,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.85",
           "buildVersion": "85",
           "date": "2026-11-14",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.76/Slote-0.0.76.ipa",
           "size": 25861242,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.75",
-          "buildVersion": "75",
-          "date": "2026-11-14",
-          "localizedDescription": "Drawing audit: held shapes snap clean, lasso bar on-screen with Convert to text everywhere, steady toolbars/popups, yellow highlighter, eraser/undo/theme-ink/PDF-opacity fixes",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.75/Slote-0.0.75.ipa",
-          "size": 25861456,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.85",
-      "versionDate": "2026-11-14",
-      "versionDescription": "fix(editor): caret follows a long paste past the old page bottom",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.85/Slote-0.0.85.ipa",
-      "size": 25871018,
+      "version": "0.0.86",
+      "versionDate": "2026-11-15",
+      "versionDescription": "Phone note: swipe from the left edge opens the side panel instead of going back home",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.86/Slote-0.0.86.ipa",
+      "size": 25868811,
       "minOSVersion": "14.0"
     }
   ],
