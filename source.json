@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.87",
+          "buildVersion": "87",
+          "date": "2026-11-15",
+          "localizedDescription": "Feedback: attach screenshots, videos and documents; 'Receive reply at'",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.87/Slote-0.0.87.ipa",
+          "size": 25878888,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.86",
           "buildVersion": "86",
           "date": "2026-11-15",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.77/Slote-0.0.77.ipa",
           "size": 25865646,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.76",
-          "buildVersion": "76",
-          "date": "2026-11-14",
-          "localizedDescription": "Typing on a phone keeps the note title visible in the top bar",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.76/Slote-0.0.76.ipa",
-          "size": 25861242,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.86",
+      "version": "0.0.87",
       "versionDate": "2026-11-15",
-      "versionDescription": "Phone note: swipe from the left edge opens the side panel instead of going back home",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.86/Slote-0.0.86.ipa",
-      "size": 25868811,
+      "versionDescription": "Feedback: attach screenshots, videos and documents; 'Receive reply at'",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.87/Slote-0.0.87.ipa",
+      "size": 25878888,
       "minOSVersion": "14.0"
     }
   ],
