@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.93",
+          "buildVersion": "93",
+          "date": "2026-11-17",
+          "localizedDescription": "Automatic reports include Supabase rejection codes, HTTP status, and the Enable two-factor auth action.",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.93/Slote-0.0.93.ipa",
+          "size": 25887238,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.91",
           "buildVersion": "91",
           "date": "2026-11-17",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.83/Slote-0.0.83.ipa",
           "size": 25868323,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.82",
-          "buildVersion": "82",
-          "date": "2026-11-14",
-          "localizedDescription": "Ticked task boxes use your accent; Ctrl K no longer lists loose title matches",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.82/Slote-0.0.82.ipa",
-          "size": 25873406,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.91",
+      "version": "0.0.93",
       "versionDate": "2026-11-17",
-      "versionDescription": "Add automatic error reports with platform and sign-in action details.",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.91/Slote-0.0.91.ipa",
-      "size": 25888285,
+      "versionDescription": "Automatic reports include Supabase rejection codes, HTTP status, and the Enable two-factor auth action.",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.93/Slote-0.0.93.ipa",
+      "size": 25887238,
       "minOSVersion": "14.0"
     }
   ],
