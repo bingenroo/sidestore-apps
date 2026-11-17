@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.94",
+          "buildVersion": "94",
+          "date": "2026-11-17",
+          "localizedDescription": "Fix a name conflict that could block two-factor authenticator setup.",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.94/Slote-0.0.94.ipa",
+          "size": 25888437,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.93",
           "buildVersion": "93",
           "date": "2026-11-17",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.84/Slote-0.0.84.ipa",
           "size": 25871710,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.83",
-          "buildVersion": "83",
-          "date": "2026-11-14",
-          "localizedDescription": "Design spec: EPUB wears create note's chrome; PDF selection blue and find amber; selected state is an ink plate; one 42px menu row; one 34px search field; raised settings groups; one back disc; floating selection capsule",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.83/Slote-0.0.83.ipa",
-          "size": 25868323,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.93",
+      "version": "0.0.94",
       "versionDate": "2026-11-17",
-      "versionDescription": "Automatic reports include Supabase rejection codes, HTTP status, and the Enable two-factor auth action.",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.93/Slote-0.0.93.ipa",
-      "size": 25887238,
+      "versionDescription": "Fix a name conflict that could block two-factor authenticator setup.",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.94/Slote-0.0.94.ipa",
+      "size": 25888437,
       "minOSVersion": "14.0"
     }
   ],
