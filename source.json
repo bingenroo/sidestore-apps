@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.91",
+          "buildVersion": "91",
+          "date": "2026-11-17",
+          "localizedDescription": "Add automatic error reports with platform and sign-in action details.",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.91/Slote-0.0.91.ipa",
+          "size": 25888285,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.90",
           "buildVersion": "90",
           "date": "2026-11-17",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.82/Slote-0.0.82.ipa",
           "size": 25873406,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.81",
-          "buildVersion": "81",
-          "date": "2026-11-14",
-          "localizedDescription": "First Windows zip: desktop Slote updates itself from Settings \u203a Updates",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.81/Slote-0.0.81.ipa",
-          "size": 25872973,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.90",
+      "version": "0.0.91",
       "versionDate": "2026-11-17",
-      "versionDescription": "Fix Two-Factor Authentication setup for Slote MCP.",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.90/Slote-0.0.90.ipa",
-      "size": 25879445,
+      "versionDescription": "Add automatic error reports with platform and sign-in action details.",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.91/Slote-0.0.91.ipa",
+      "size": 25888285,
       "minOSVersion": "14.0"
     }
   ],
