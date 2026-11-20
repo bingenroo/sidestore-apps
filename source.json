@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.95",
+          "buildVersion": "95",
+          "date": "2026-11-20",
+          "localizedDescription": "New notes imported through Slote MCP use the first Markdown heading as their title. Long Markdown documents can be queued as a single note.",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.95/Slote-0.0.95.ipa",
+          "size": 25887133,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.94",
           "buildVersion": "94",
           "date": "2026-11-17",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.85/Slote-0.0.85.ipa",
           "size": 25871018,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.84",
-          "buildVersion": "84",
-          "date": "2026-11-14",
-          "localizedDescription": "Home: book notes show the EPUB cover on their cards",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.84/Slote-0.0.84.ipa",
-          "size": 25871710,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.94",
-      "versionDate": "2026-11-17",
-      "versionDescription": "Fix a name conflict that could block two-factor authenticator setup.",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.94/Slote-0.0.94.ipa",
-      "size": 25888437,
+      "version": "0.0.95",
+      "versionDate": "2026-11-20",
+      "versionDescription": "New notes imported through Slote MCP use the first Markdown heading as their title. Long Markdown documents can be queued as a single note.",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.95/Slote-0.0.95.ipa",
+      "size": 25887133,
       "minOSVersion": "14.0"
     }
   ],
