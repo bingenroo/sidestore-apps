@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.99",
+          "buildVersion": "99",
+          "date": "2026-11-23",
+          "localizedDescription": "TOC: touchpad over a short TOC card scrolls the note",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.99/Slote-0.0.99.ipa",
+          "size": 25828330,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.98",
           "buildVersion": "98",
           "date": "2026-11-23",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.89/Slote-0.0.89.ipa",
           "size": 25885285,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.88",
-          "buildVersion": "88",
-          "date": "2026-11-15",
-          "localizedDescription": "Side panel opens notes in a new tab; swipe a tab card left to close (Undo)",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.88/Slote-0.0.88.ipa",
-          "size": 25884441,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.98",
+      "version": "0.0.99",
       "versionDate": "2026-11-23",
-      "versionDescription": "Drawings: no more cut-off ink after reopening a zoomed note; the same part of a drawing stays in view on every screen size, rotation and window resize. Home: Dew replaces the notes loading bar.",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.98/Slote-0.0.98.ipa",
-      "size": 25824921,
+      "versionDescription": "TOC: touchpad over a short TOC card scrolls the note",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.99/Slote-0.0.99.ipa",
+      "size": 25828330,
       "minOSVersion": "14.0"
     }
   ],
