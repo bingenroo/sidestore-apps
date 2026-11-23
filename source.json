@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.100",
+          "buildVersion": "100",
+          "date": "2026-11-23",
+          "localizedDescription": "Desktop: dragging the window wider, narrower, taller or shorter keeps a zoomed drawing in place.",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.100/Slote-0.0.100.ipa",
+          "size": 25828074,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.99",
           "buildVersion": "99",
           "date": "2026-11-23",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.90/Slote-0.0.90.ipa",
           "size": 25879445,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.89",
-          "buildVersion": "89",
-          "date": "2026-11-16",
-          "localizedDescription": "Search field text centred on desktop; desktop version footer opens Help & about (Updates)",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.89/Slote-0.0.89.ipa",
-          "size": 25885285,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.99",
+      "version": "0.0.100",
       "versionDate": "2026-11-23",
-      "versionDescription": "TOC: touchpad over a short TOC card scrolls the note",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.99/Slote-0.0.99.ipa",
-      "size": 25828330,
+      "versionDescription": "Desktop: dragging the window wider, narrower, taller or shorter keeps a zoomed drawing in place.",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.100/Slote-0.0.100.ipa",
+      "size": 25828074,
       "minOSVersion": "14.0"
     }
   ],
