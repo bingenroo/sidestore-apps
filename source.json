@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.97",
+          "buildVersion": "97",
+          "date": "2026-11-23",
+          "localizedDescription": "TOC card: wheel at the list's end no longer scrolls the note",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.97/Slote-0.0.97.ipa",
+          "size": 25820581,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.96",
           "buildVersion": "96",
           "date": "2026-11-21",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.87/Slote-0.0.87.ipa",
           "size": 25878888,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.86",
-          "buildVersion": "86",
-          "date": "2026-11-15",
-          "localizedDescription": "Phone note: swipe from the left edge opens the side panel instead of going back home",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.86/Slote-0.0.86.ipa",
-          "size": 25868811,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.96",
-      "versionDate": "2026-11-21",
-      "versionDescription": "Fixes: an open note no longer keeps redrawing in the background (battery). Signing in with two-step verification can no longer replace your encryption keys. Text boxes on PDF pages are readable in dark theme. Cmd/Ctrl+K opens instantly. Small wording and icon fixes.",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.96/Slote-0.0.96.ipa",
-      "size": 25815962,
+      "version": "0.0.97",
+      "versionDate": "2026-11-23",
+      "versionDescription": "TOC card: wheel at the list's end no longer scrolls the note",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.97/Slote-0.0.97.ipa",
+      "size": 25820581,
       "minOSVersion": "14.0"
     }
   ],
