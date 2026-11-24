@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.104",
+          "buildVersion": "104",
+          "date": "2026-11-24",
+          "localizedDescription": "Open with Slote: Windows registers .md/.pdf/.epub on launch; EPUB in file associations",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.104/Slote-0.0.104.ipa",
+          "size": 25824504,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.103",
           "buildVersion": "103",
           "date": "2026-11-24",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.95/Slote-0.0.95.ipa",
           "size": 25887133,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.94",
-          "buildVersion": "94",
-          "date": "2026-11-17",
-          "localizedDescription": "Fix a name conflict that could block two-factor authenticator setup.",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.94/Slote-0.0.94.ipa",
-          "size": 25888437,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.103",
+      "version": "0.0.104",
       "versionDate": "2026-11-24",
-      "versionDescription": "Dew's look now comes from dew.json (no visible change); groundwork for tuning Dew in Dex Studio",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.103/Slote-0.0.103.ipa",
-      "size": 25822540,
+      "versionDescription": "Open with Slote: Windows registers .md/.pdf/.epub on launch; EPUB in file associations",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.104/Slote-0.0.104.ipa",
+      "size": 25824504,
       "minOSVersion": "14.0"
     }
   ],
