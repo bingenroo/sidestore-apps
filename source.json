@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.101",
+          "buildVersion": "101",
+          "date": "2026-11-24",
+          "localizedDescription": "Startup: no home flash before the vault check; loading bar until home is ready",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.101/Slote-0.0.101.ipa",
+          "size": 25827778,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.100",
           "buildVersion": "100",
           "date": "2026-11-23",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.91/Slote-0.0.91.ipa",
           "size": 25888285,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.90",
-          "buildVersion": "90",
-          "date": "2026-11-17",
-          "localizedDescription": "Fix Two-Factor Authentication setup for Slote MCP.",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.90/Slote-0.0.90.ipa",
-          "size": 25879445,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.100",
-      "versionDate": "2026-11-23",
-      "versionDescription": "Desktop: dragging the window wider, narrower, taller or shorter keeps a zoomed drawing in place.",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.100/Slote-0.0.100.ipa",
-      "size": 25828074,
+      "version": "0.0.101",
+      "versionDate": "2026-11-24",
+      "versionDescription": "Startup: no home flash before the vault check; loading bar until home is ready",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.101/Slote-0.0.101.ipa",
+      "size": 25827778,
       "minOSVersion": "14.0"
     }
   ],
