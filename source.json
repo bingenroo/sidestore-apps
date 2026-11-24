@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.105",
+          "buildVersion": "105",
+          "date": "2026-11-24",
+          "localizedDescription": "Sync catches up the moment you return or reconnect; notes from Claude/Codex arrive live",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.105/Slote-0.0.105.ipa",
+          "size": 25824076,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.104",
           "buildVersion": "104",
           "date": "2026-11-24",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.96/Slote-0.0.96.ipa",
           "size": 25815962,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.95",
-          "buildVersion": "95",
-          "date": "2026-11-20",
-          "localizedDescription": "New notes imported through Slote MCP use the first Markdown heading as their title. Long Markdown documents can be queued as a single note.",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.95/Slote-0.0.95.ipa",
-          "size": 25887133,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.104",
+      "version": "0.0.105",
       "versionDate": "2026-11-24",
-      "versionDescription": "Open with Slote: Windows registers .md/.pdf/.epub on launch; EPUB in file associations",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.104/Slote-0.0.104.ipa",
-      "size": 25824504,
+      "versionDescription": "Sync catches up the moment you return or reconnect; notes from Claude/Codex arrive live",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.105/Slote-0.0.105.ipa",
+      "size": 25824076,
       "minOSVersion": "14.0"
     }
   ],
