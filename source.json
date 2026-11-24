@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.103",
+          "buildVersion": "103",
+          "date": "2026-11-24",
+          "localizedDescription": "Dew's look now comes from dew.json (no visible change); groundwork for tuning Dew in Dex Studio",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.103/Slote-0.0.103.ipa",
+          "size": 25822540,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.102",
           "buildVersion": "102",
           "date": "2026-11-24",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.94/Slote-0.0.94.ipa",
           "size": 25888437,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.93",
-          "buildVersion": "93",
-          "date": "2026-11-17",
-          "localizedDescription": "Automatic reports include Supabase rejection codes, HTTP status, and the Enable two-factor auth action.",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.93/Slote-0.0.93.ipa",
-          "size": 25887238,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.102",
+      "version": "0.0.103",
       "versionDate": "2026-11-24",
-      "versionDescription": "Faster startup sync: no full library re-download each launch",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.102/Slote-0.0.102.ipa",
-      "size": 25829322,
+      "versionDescription": "Dew's look now comes from dew.json (no visible change); groundwork for tuning Dew in Dex Studio",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.103/Slote-0.0.103.ipa",
+      "size": 25822540,
       "minOSVersion": "14.0"
     }
   ],
