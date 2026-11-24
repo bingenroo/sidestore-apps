@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.102",
+          "buildVersion": "102",
+          "date": "2026-11-24",
+          "localizedDescription": "Faster startup sync: no full library re-download each launch",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.102/Slote-0.0.102.ipa",
+          "size": 25829322,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.101",
           "buildVersion": "101",
           "date": "2026-11-24",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.93/Slote-0.0.93.ipa",
           "size": 25887238,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.91",
-          "buildVersion": "91",
-          "date": "2026-11-17",
-          "localizedDescription": "Add automatic error reports with platform and sign-in action details.",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.91/Slote-0.0.91.ipa",
-          "size": 25888285,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.101",
+      "version": "0.0.102",
       "versionDate": "2026-11-24",
-      "versionDescription": "Startup: no home flash before the vault check; loading bar until home is ready",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.101/Slote-0.0.101.ipa",
-      "size": 25827778,
+      "versionDescription": "Faster startup sync: no full library re-download each launch",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.102/Slote-0.0.102.ipa",
+      "size": 25829322,
       "minOSVersion": "14.0"
     }
   ],
