@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.107",
+          "buildVersion": "107",
+          "date": "2026-11-27",
+          "localizedDescription": "Highlights: rounded per-line bands under the selection, dark-mode readable shades, highlight-first colour picker",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.107/Slote-0.0.107.ipa",
+          "size": 25873620,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.106",
           "buildVersion": "106",
           "date": "2026-11-27",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.98/Slote-0.0.98.ipa",
           "size": 25824921,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.97",
-          "buildVersion": "97",
-          "date": "2026-11-23",
-          "localizedDescription": "TOC card: wheel at the list's end no longer scrolls the note",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.97/Slote-0.0.97.ipa",
-          "size": 25820581,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.106",
+      "version": "0.0.107",
       "versionDate": "2026-11-27",
-      "versionDescription": "Faster sign-in: remembered accounts (Welcome back @you, Switch), 2FA and email codes in boxes with Paste, Settings > Security > Stop asking for the code",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.106/Slote-0.0.106.ipa",
-      "size": 25860709,
+      "versionDescription": "Highlights: rounded per-line bands under the selection, dark-mode readable shades, highlight-first colour picker",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.107/Slote-0.0.107.ipa",
+      "size": 25873620,
       "minOSVersion": "14.0"
     }
   ],
