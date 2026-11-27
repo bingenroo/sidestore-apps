@@ -23,6 +23,15 @@
       },
       "versions": [
         {
+          "version": "0.0.108",
+          "buildVersion": "108",
+          "date": "2026-11-27",
+          "localizedDescription": "Dew around the app: empty Trash, search with no results, toasts and Settings; What's new and download links in Settings; highlights no longer inflate the word count",
+          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.108/Slote-0.0.108.ipa",
+          "size": 25883632,
+          "minOSVersion": "14.0"
+        },
+        {
           "version": "0.0.107",
           "buildVersion": "107",
           "date": "2026-11-27",
@@ -102,22 +111,13 @@
           "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.99/Slote-0.0.99.ipa",
           "size": 25828330,
           "minOSVersion": "14.0"
-        },
-        {
-          "version": "0.0.98",
-          "buildVersion": "98",
-          "date": "2026-11-23",
-          "localizedDescription": "Drawings: no more cut-off ink after reopening a zoomed note; the same part of a drawing stays in view on every screen size, rotation and window resize. Home: Dew replaces the notes loading bar.",
-          "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.98/Slote-0.0.98.ipa",
-          "size": 25824921,
-          "minOSVersion": "14.0"
         }
       ],
-      "version": "0.0.107",
+      "version": "0.0.108",
       "versionDate": "2026-11-27",
-      "versionDescription": "Highlights: rounded per-line bands under the selection, dark-mode readable shades, highlight-first colour picker",
-      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.107/Slote-0.0.107.ipa",
-      "size": 25873620,
+      "versionDescription": "Dew around the app: empty Trash, search with no results, toasts and Settings; What's new and download links in Settings; highlights no longer inflate the word count",
+      "downloadURL": "https://github.com/bingenroo/sidestore-apps/releases/download/slote-v0.0.108/Slote-0.0.108.ipa",
+      "size": 25883632,
       "minOSVersion": "14.0"
     }
   ],
