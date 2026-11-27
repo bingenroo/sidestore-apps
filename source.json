@@ -11,12 +11,15 @@
       "name": "Slote",
       "bundleIdentifier": "io.slote",
       "developerName": "bingenroo",
-      "subtitle": "Cross-platform note-taking",
-      "localizedDescription": "Slote - cross-platform note-taking with freehand drawing. Private build, distributed via SideStore.",
+      "subtitle": "Draw and type on the same page",
+      "localizedDescription": "Slote puts handwriting and typing on the same page. Write on PDFs and EPUB books, highlight, sketch with seven pens and pressure, and sync across Android, Windows, iPhone and iPad, encrypted on your device. No account needed. Free during launch. https://slote-website.vercel.app",
       "iconURL": "https://raw.githubusercontent.com/bingenroo/sidestore-apps/main/icons/slote.png",
       "tintColor": "#3B6EA5",
       "category": "productivity",
-      "screenshotURLs": [],
+      "screenshotURLs": [
+        "https://slote-website.vercel.app/demo/home-phone.light.webp",
+        "https://slote-website.vercel.app/demo/home-phone.dark.webp"
+      ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {}
